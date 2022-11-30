@@ -1,4 +1,4 @@
-<h1 align='center'>clashd - "Clashees Clashed!"</h1>
+<h1 align='center'>clashd - "Clash profiles repo"</h1>
 <h4>latest raw link updates ⬇️</h4>
 
 ---
