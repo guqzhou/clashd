@@ -8,6 +8,7 @@
 <details>
 <summary>wbnet (moslem hakir)</summary>
 1dec - http://raw.githubusercontent.com/aiioats/clashd/main/wbnet/1dec.yaml
+  
 7dec - http://raw.githubusercontent.com/aiioats/clashd/main/wbnet/7dec.yaml
 </details>
 
