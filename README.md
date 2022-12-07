@@ -17,5 +17,7 @@
 <h6 align='left'>Others</h6>
 <details>
 <summary>azadnet</summary>
-13nov - http://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet.yml
+http://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet.yml
+  
+[@AzadNetCH](https://github.com/AzadNetCH)
 </details>
