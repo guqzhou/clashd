@@ -19,6 +19,5 @@
 <details>
 <summary>azadnet</summary>
 http://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet.yml
-  
-[@AzadNetCH](https://github.com/AzadNetCH)
+<a href="https://github.com/AzadNetCH">AzadNetCH</a>
 </details>
