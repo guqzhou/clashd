@@ -9,7 +9,8 @@
 <details>
 <summary>wbnet (moslem hakir)</summary>
 1dec - http://raw.githubusercontent.com/aiioats/clashd/main/wbnet/1dec.yaml <br>
-7dec - http://raw.githubusercontent.com/aiioats/clashd/main/wbnet/7dec.yaml
+7dec - http://raw.githubusercontent.com/aiioats/clashd/main/wbnet/7dec.yaml <br>
+11dec - http://raw.githubusercontent.com/aiioats/clashd/main/wbnet/11dec.yaml
 </details>
 
 ---
