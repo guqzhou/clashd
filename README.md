@@ -44,3 +44,7 @@ Also, if there was any problem with the repo, or if you have a question, please 
 </a> <br>
 همچنین، لطفا سعی کنید اگر مشکلی در مخزن وجود داشت، یا اگر سوالی داشتید، حتما به issue های خودتون label بزنید.
 </p>
+
+---
+
+<h6 align="center"><a href="./sources.md">Sources</a></h6>
