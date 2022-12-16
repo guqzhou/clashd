@@ -24,3 +24,18 @@
 http://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet.yml
 <a href="https://github.com/AzadNetCH">AzadNetCH</a>
 </details>
+
+---
+<h3 align="center">A little tip - یک نکته کوچک 🔔</h3>
+<p>
+Please comment any channel you want to add to this repo in this issue. <br>
+Also, if there was any problem with the repo, or if you have a question, please add labels to your issues.
+</p>
+
+<p align="right">
+لطفا هر چنلی رو که خواستید به این مخزن اضافه بشه رو 
+<a href="https://github.com/aiioats/clashd/issues/3">
+در اینجا کامنت کنید.
+</a> <br>
+همچنین، لطفا سعی کنید اگر مشکلی در مخزن وجود داشت، یا اگر سوالی داشتید، حتما به issue های خودتون label بزنید.
+</p>
