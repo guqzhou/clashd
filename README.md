@@ -15,6 +15,11 @@
 13dec - http://raw.githubusercontent.com/aiioats/clashd/main/wbnet/13dec.yaml <br>
 16dec - http://raw.githubusercontent.com/aiioats/clashd/main/wbnet/16dec.yaml
 </details>
+<details>
+<summary>vpnfolder</summary>
+<h6>Latest <code>http://raw.githubusercontent.com/aiioats/clashd/main/vpnfolder/latest.yaml</code></h6><br>
+16dec - http://raw.githubusercontent.com/aiioats/clashd/main/vpnfolder/16dec.yaml
+</details>
 
 ---
 
