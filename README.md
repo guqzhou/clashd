@@ -28,7 +28,7 @@ http://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet.yml
 ---
 <h3 align="center">A little tip - یک نکته کوچک 🔔</h3>
 <p>
-Please comment any channel you want to add to this repo in this issue. <br>
+Please comment any channel you want to add to this repo <a href="https://github.com/aiioats/clashd/issues/3">in this issue.</a> <br>
 Also, if there was any problem with the repo, or if you have a question, please add labels to your issues.
 </p>
 
