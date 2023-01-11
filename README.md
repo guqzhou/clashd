@@ -14,7 +14,8 @@
 11dec - http://raw.githubusercontent.com/aiioats/clashd/main/wbnet/11dec.yaml <br>
 13dec - http://raw.githubusercontent.com/aiioats/clashd/main/wbnet/13dec.yaml <br>
 16dec - http://raw.githubusercontent.com/aiioats/clashd/main/wbnet/16dec.yaml <br>
-25dec - http://raw.githubusercontent.com/aiioats/clashd/main/wbnet/25dec.yaml
+25dec - http://raw.githubusercontent.com/aiioats/clashd/main/wbnet/25dec.yaml <br>
+10jan - http://raw.githubusercontent.com/aiioats/clashd/main/wbnet/10jan.yaml
 </details>
 <details>
 <summary>vpnfolder</summary>
