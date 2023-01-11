@@ -21,6 +21,11 @@
 <h6>Latest <code>http://raw.githubusercontent.com/aiioats/clashd/main/vpnfolder/latest.yaml</code></h6><br>
 16dec - http://raw.githubusercontent.com/aiioats/clashd/main/vpnfolder/16dec.yaml
 </details>
+<details>
+<summary>deamnet</summary>
+<h6>Latest <code>http://raw.githubusercontent.com/aiioats/clashd/main/deamnet/latest.yaml</code></h6><br>
+10jan - http://raw.githubusercontent.com/aiioats/clashd/main/deamnet/10jan.yaml
+</details>
 
 ---
 
