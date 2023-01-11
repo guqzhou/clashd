@@ -1,0 +1,4984 @@
+mixed-port: 7890
+allow-lan: true
+mode: Rule
+log-level: silent
+proxies:
+  - name: "@DeamNet_🇮🇷Tehran-1001-1"
+    type: vmess
+    server: 185.143.233.207
+    port: 80
+    uuid: 0ce85409-bde2-4f7b-8a7c-f3de56dfdd6a
+    alterId: 0
+    cipher: chacha20-poly1305
+    udp: true
+    network: ws
+    ws-opts:
+      path: /ray
+      headers:
+        Host: 123.zirogame-15.site
+  - name: "@DeamNet_🇨🇦Toronto-1002-2"
+    type: vmess
+    server: vfly3.win
+    port: 443
+    uuid: f4ef14c4-d811-455c-a4c3-c63dfeffb0a6
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: vfly3.win
+    network: ws
+    ws-opts:
+      path: /myblog
+      headers:
+        Host: vfly3.win
+  - name: "@DeamNet_🇧🇿Belmopan-1003-3"
+    type: vmess
+    server: 203.30.189.191
+    port: 443
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /A2DJOPFT
+      headers:
+        Host: lg10.cfcdn1.xyz
+  - name: "@DeamNet_🇧🇿Belmopan-1004-4"
+    type: vmess
+    server: 203.30.189.189
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+  - name: "@DeamNet_🇧🇿Belmopan-1005-5"
+    type: vmess
+    server: 203.30.188.189
+    port: 443
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: oplg1.zhujicn2.com
+    network: ws
+    ws-opts:
+      path: /5QNROSRV
+      headers:
+        Host: oplg1.zhujicn2.com
+  - name: "@DeamNet_🇧🇿Belmopan-1006-6"
+    type: vmess
+    server: 203.30.188.120
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+  - name: "@DeamNet_🇨🇾Nicosia-1007-7"
+    type: vmess
+    server: 203.24.108.10
+    port: 443
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: lg10.cfcdn1.xyz
+    network: ws
+    ws-opts:
+      path: /A2DJOPFT
+      headers:
+        Host: lg10.cfcdn1.xyz
+  - name: "@DeamNet_🇬🇧Southport-1008-8"
+    type: vmess
+    server: 185.162.228.229
+    port: 443
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /5QNROSRV
+      headers:
+        Host: oplg1.zhujicn2.com
+  - name: "@DeamNet_🇧🇿Belmopan-1009-9"
+    type: vmess
+    server: 203.30.188.189
+    port: 443
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /5QNROSRV
+      headers:
+        Host: oplg1.zhujicn2.com
+  - name: "@DeamNet_🇧🇿Belmopan-1010-10"
+    type: vmess
+    server: 203.30.189.190
+    port: 443
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: oplg1.zhujicn2.com
+    network: ws
+    ws-opts:
+      path: /5QNROSRV
+      headers:
+        Host: oplg1.zhujicn2.com
+  - name: "@DeamNet_🇧🇿Belmopan-1011-11"
+    type: vmess
+    server: 203.30.188.190
+    port: 443
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: lg10.cfcdn1.xyz
+    network: ws
+    ws-opts:
+      path: /A2DJOPFT
+      headers:
+        Host: lg10.cfcdn1.xyz
+  - name: "@DeamNet_🇧🇿Belmopan-1012-12"
+    type: vmess
+    server: 203.30.191.192
+    port: 443
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /5QNROSRV
+      headers:
+        Host: oplg1.zhujicn2.com
+  - name: "@DeamNet_🇨🇦Toronto-1013-13"
+    type: vmess
+    server: vfly3.win
+    port: 443
+    uuid: f4ef14c4-d811-455c-a4c3-c63dfeffb0a6
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /myblog
+      headers:
+        Host: vfly3.win
+  - name: "@DeamNet_🇨🇦Toronto-1014-14"
+    type: vmess
+    server: 172.67.141.197
+    port: 8443
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: us-171-78.shoptunnel.live
+    network: ws
+    ws-opts:
+      path: /8cda48b3
+      headers:
+        Host: us-171-78.shoptunnel.live
+  - name: "@DeamNet_🇨🇾Nicosia-1015-15"
+    type: vmess
+    server: 203.24.108.9
+    port: 443
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /5QNROSRV
+      headers:
+        Host: oplg1.zhujicn2.com
+  - name: "@DeamNet_🇬🇧Southport-1016-16"
+    type: vmess
+    server: 185.162.228.228
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: lg1.trump2023.us
+    network: ws
+    ws-opts:
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+  - name: "@DeamNet_🇨🇾Nicosia-1017-17"
+    type: vmess
+    server: 203.24.108.8
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: lg1.trump2023.us
+    network: ws
+    ws-opts:
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+  - name: "@DeamNet_🇫🇷Paris-1018-18"
+    type: vmess
+    server: 173.245.49.141
+    port: 8443
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: us-171-78.shoptunnel.live
+    network: ws
+    ws-opts:
+      path: /8cda48b3
+      headers:
+        Host: us-171-78.shoptunnel.live
+  - name: "@DeamNet_🇧🇿Belmopan-1019-19"
+    type: vmess
+    server: 203.30.191.192
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+  - name: "@DeamNet_🇧🇿Belmopan-1020-20"
+    type: vmess
+    server: 203.30.190.192
+    port: 443
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: lg10.cfcdn1.xyz
+    network: ws
+    ws-opts:
+      path: /A2DJOPFT
+      headers:
+        Host: lg10.cfcdn1.xyz
+  - name: "@DeamNet_🇨🇦Ottawa-1021-21"
+    type: vmess
+    server: 23.227.38.40
+    port: 443
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /A2DJOPFT
+      headers:
+        Host: lg10.cfcdn1.xyz
+  - name: "@DeamNet_🇨🇦Ottawa-1022-22"
+    type: vmess
+    server: mtn.mrloo19866.top
+    port: 8443
+    uuid: f9ce2460-9cc9-4924-83f6-c2d5749f5373
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: b.mrloo19866.top
+  - name: "@DeamNet_🇨🇦Toronto-1023-23"
+    type: vmess
+    server: hohm.microsoft.com
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: hk.sharecentre.online
+    network: ws
+    ws-opts:
+      path: /shirker
+      headers:
+        Host: hk.sharecentre.online
+  - name: "@DeamNet_🇫🇷Paris-1024-24"
+    type: vmess
+    server: 173.245.49.10
+    port: 8443
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: us-171-78.shoptunnel.live
+    network: ws
+    ws-opts:
+      path: /8cda48b3
+      headers:
+        Host: us-171-78.shoptunnel.live
+  - name: "@DeamNet_🇩🇪Falkenstein-1025-25"
+    type: vmess
+    server: 167.235.28.157
+    port: 63456
+    uuid: 31f1f8ea-fd38-4e63-b818-a49d416820bd
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 167.235.28.157
+  - name: "@DeamNet_🇧🇿Belmopan-1026-26"
+    type: vmess
+    server: 203.30.190.190
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: lg1.trump2023.us
+    network: ws
+    ws-opts:
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+  - name: "@DeamNet_🇺🇸Newark-1027-27"
+    type: vmess
+    server: speed.cloudflare.com
+    port: 443
+    uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: v2.chigua.tk
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: v2.chigua.tk
+  - name: "@DeamNet_🇨🇦Toronto-1028-28"
+    type: vmess
+    server: 198.41.212.122
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: fr1.trump2023.org
+    network: ws
+    ws-opts:
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+  - name: "@DeamNet_🇬🇧Southport-1029-29"
+    type: vmess
+    server: 185.162.228.230
+    port: 443
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /A2DJOPFT
+      headers:
+        Host: lg10.cfcdn1.xyz
+  - name: "@DeamNet_🇺🇸Washington-1030-30"
+    type: vmess
+    server: 141.101.114.111
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: fr1.trump2023.org
+    network: ws
+    ws-opts:
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+  - name: "@DeamNet_🇨🇦Ottawa-1031-31"
+    type: vmess
+    server: 23.227.39.60
+    port: 443
+    uuid: 92133df1-eabb-c562-81a0-8074913242f6
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: funbro8.online
+    network: ws
+    ws-opts:
+      path: /ecrdvws
+      headers:
+        Host: funbro8.online
+  - name: "@DeamNet_🇫🇷Paris-1032-32"
+    type: vmess
+    server: 173.245.49.190
+    port: 8443
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: SG-244-255.shoptunnel.live
+    network: ws
+    ws-opts:
+      path: /8cda48b3
+      headers:
+        Host: SG-244-255.shoptunnel.live
+  - name: "@DeamNet_🇩🇪Nuremberg-1033-33"
+    type: vmess
+    server: 5.75.203.110
+    port: 57858
+    uuid: 664a70df-9b58-488f-cb7f-2de9d8f9b8d9
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 5.75.203.110
+  - name: "@DeamNet_🇩🇪Frankfurt am Main-1034-34"
+    type: vmess
+    server: 89.43.107.71
+    port: 13673
+    uuid: 848ed6f8-071f-48dd-81ea-3fba7275343e
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 89.43.107.71
+  - name: "@DeamNet_🇩🇪Falkenstein-1035-35"
+    type: trojan
+    server: jump.bungeejumpingistanbul.com
+    port: 443
+    password: "1672752854"
+    udp: true
+    sni: jump.bungeejumpingistanbul.com
+    skip-cert-verify: true
+  - name: "@DeamNet_🇨🇦Toronto-1036-36"
+    type: vmess
+    server: v2rng.tk
+    port: 2096
+    uuid: eaaaaf23-ee2a-40dc-9cfd-0799fdec21af
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: v2rng.tk
+    network: ws
+    ws-opts:
+      path: /v2rng.tk
+      headers:
+        Host: v2rng.tk
+  - name: "@DeamNet_🇮🇷Tehran-1037-37"
+    type: vmess
+    server: 37.32.13.251
+    port: 59317
+    uuid: d898f235-ecf5-406d-fb12-90f1fa6ccace
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 37.32.13.251
+  - name: "@DeamNet_🇨🇦Ottawa-1038-38"
+    type: vmess
+    server: 23.227.39.239
+    port: 443
+    uuid: 92133df1-eabb-c562-81a0-8074913242f6
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: funbro8.online
+    network: ws
+    ws-opts:
+      path: /ecrdvws
+      headers:
+        Host: funbro8.online
+  - name: "@DeamNet_🇷🇺Moscow-1039-39"
+    type: vmess
+    server: 91.193.181.192
+    port: 8090
+    uuid: 08bc30e1-be39-4eb4-e887-e6579be15a45
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 91.193.181.192
+  - name: "@DeamNet_🇨🇦Ottawa-1040-40"
+    type: vmess
+    server: 23.227.38.39
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+  - name: "@DeamNet_🇨🇦Ottawa-1041-41"
+    type: vmess
+    server: 23.227.38.40
+    port: 443
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: lg10.cfcdn1.xyz
+    network: ws
+    ws-opts:
+      path: /A2DJOPFT
+      headers:
+        Host: lg10.cfcdn1.xyz
+  - name: "@DeamNet_🇨🇦Toronto-1042-42"
+    type: vmess
+    server: main.millionaireaisle.com
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+  - name: "@DeamNet_🇩🇪Nuremberg-1043-43"
+    type: vmess
+    server: 5.75.129.202
+    port: 55039
+    uuid: 151e56df-edd0-43ef-ddc8-f0108a05a792
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 5.75.129.202
+  - name: "@DeamNet_🇬🇧Southport-1044-44"
+    type: vmess
+    server: 185.162.228.228
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+  - name: "@DeamNet_🇺🇸Newark-1045-45"
+    type: vmess
+    server: speed.cloudflare.com
+    port: 443
+    uuid: c3d6bed0-5c56-4e8d-af7b-e68c57724c15
+    alterId: 0
+    cipher: aes-128-gcm
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: w4423.baidu2b.cf
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: w4423.baidu2b.cf
+  - name: "@DeamNet_🇳🇱Amsterdam-1046-46"
+    type: trojan
+    server: content-provider23.cdn-delivery.akamaicd.com
+    port: 443
+    password: "Sp3eDVp"
+    udp: true
+    sni: content-provider23.cdn-delivery.akamaicd.com
+    skip-cert-verify: true
+  - name: "@DeamNet_🇨🇦Toronto-1047-47"
+    type: vmess
+    server: cf-dx-dns.sharecentre.online
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: opc-jp.sharecentre.online
+    network: ws
+    ws-opts:
+      path: /shirker
+      headers:
+        Host: opc-jp.sharecentre.online
+  - name: "@DeamNet_🇨🇷Pozos-1048-48"
+    type: vmess
+    server: 190.93.245.2
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: lg1.trump2023.us
+    network: ws
+    ws-opts:
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+  - name: "@DeamNet_🇱🇺Luxembourg-1049-49"
+    type: vmess
+    server: 107.189.31.139
+    port: 80
+    uuid: 3c036d7e-35aa-4dfd-8b74-22c73830c74b
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 107.189.31.139
+  - name: "@DeamNet_🇺🇸Newark-1050-50"
+    type: vmess
+    server: 172.67.34.78
+    port: 8880
+    uuid: a5c804aa-8a4d-4fd2-97a1-4f0cc1384953
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /hkaa0
+      headers:
+        Host: sg1021.hkaa0.tk
+  - name: "@DeamNet_🇺🇸Washington-1051-51"
+    type: vmess
+    server: 141.101.115.30
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: lg1.trump2023.us
+    network: ws
+    ws-opts:
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+  - name: "@DeamNet_🇨🇦Ottawa-1052-52"
+    type: vmess
+    server: 23.227.38.39
+    port: 443
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /5QNROSRV
+      headers:
+        Host: oplg1.zhujicn2.com
+  - name: "@DeamNet_🇨🇦Toronto-1053-53"
+    type: vmess
+    server: 104.19.48.92
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: hk.sharecentre.online
+    network: ws
+    ws-opts:
+      path: /shirker
+      headers:
+        Host: hk.sharecentre.online
+  - name: "@DeamNet_🇺🇸Austin-1054-54"
+    type: vmess
+    server: news.microsoft.com
+    port: 443
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: lg10.cfcdn1.xyz
+    network: ws
+    ws-opts:
+      path: /A2DJOPFT
+      headers:
+        Host: lg10.cfcdn1.xyz
+  - name: "@DeamNet_🇺🇸Jacksonville-1055-55"
+    type: vmess
+    server: 66.235.200.22
+    port: 443
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: lg10.cfcdn1.xyz
+    network: ws
+    ws-opts:
+      path: /A2DJOPFT
+      headers:
+        Host: lg10.cfcdn1.xyz
+  - name: "@DeamNet_🇨🇦Ottawa-1056-56"
+    type: vmess
+    server: 23.227.38.39
+    port: 443
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: oplg1.zhujicn2.com
+    network: ws
+    ws-opts:
+      path: /5QNROSRV
+      headers:
+        Host: oplg1.zhujicn2.com
+  - name: "@DeamNet_🇺🇸Jacksonville-1057-57"
+    type: vmess
+    server: 66.235.200.16
+    port: 443
+    uuid: 92133df1-eabb-c562-81a0-8074913242f6
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: funbro8.online
+    network: ws
+    ws-opts:
+      path: /ecrdvws
+      headers:
+        Host: funbro8.online
+  - name: "@DeamNet_🇪🇸Madrid-1058-58"
+    type: trojan
+    server: upload.soft98.download
+    port: 443
+    password: "a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671"
+    udp: true
+    sni: upload.soft98.download
+    skip-cert-verify: true
+  - name: "@DeamNet_🇺🇸Austin-1059-59"
+    type: vmess
+    server: news.microsoft.com
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: opc-jp.sharecentre.online
+    network: ws
+    ws-opts:
+      path: /shirker
+      headers:
+        Host: opc-jp.sharecentre.online
+  - name: "@DeamNet_🇨🇦Toronto-1060-60"
+    type: vmess
+    server: 172.64.157.26
+    port: 8443
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: us-171-78.shoptunnel.live
+    network: ws
+    ws-opts:
+      path: /8cda48b3
+      headers:
+        Host: us-171-78.shoptunnel.live
+  - name: "@DeamNet_🇫🇷Paris-1061-61"
+    type: vmess
+    server: 173.245.49.113
+    port: 8443
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: us-171-78.shoptunnel.live
+    network: ws
+    ws-opts:
+      path: /8cda48b3
+      headers:
+        Host: us-171-78.shoptunnel.live
+  - name: "@DeamNet_🇺🇸Austin-1062-62"
+    type: vmess
+    server: news.microsoft.com
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: lg1.trump2023.us
+    network: ws
+    ws-opts:
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+  - name: "@DeamNet_🇫🇷Roubaix-1063-63"
+    type: trojan
+    server: content-provider26.cdn-delivery.akamaicd.com
+    port: 443
+    password: "origin"
+    udp: true
+    sni: content-provider26.cdn-delivery.akamaicd.com
+    skip-cert-verify: true
+  - name: "@DeamNet_🇺🇸Newark-1064-64"
+    type: vmess
+    server: 172.67.27.213
+    port: 8443
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: us-171-78.shoptunnel.live
+    network: ws
+    ws-opts:
+      path: /8cda48b3
+      headers:
+        Host: us-171-78.shoptunnel.live
+  - name: "@DeamNet_🇩🇪Nuremberg-1065-65"
+    type: vmess
+    server: 159.69.55.190
+    port: 2209
+    uuid: 41148bef-6693-4fa1-d74a-375846574b06
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "@DeamNet_🇨🇷Pozos-1066-66"
+    type: vmess
+    server: 190.93.244.2
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: lg1.trump2023.us
+    network: ws
+    ws-opts:
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+  - name: "@DeamNet_🇨🇾Nicosia-1067-67"
+    type: vmess
+    server: 203.24.108.9
+    port: 443
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: oplg1.zhujicn2.com
+    network: ws
+    ws-opts:
+      path: /5QNROSRV
+      headers:
+        Host: oplg1.zhujicn2.com
+  - name: "@DeamNet_🇺🇸Austin-1068-68"
+    type: vmess
+    server: news.microsoft.com
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: hk.sharecentre.online
+    network: ws
+    ws-opts:
+      path: /shirker
+      headers:
+        Host: hk.sharecentre.online
+  - name: "@DeamNet_🇺🇸Jacksonville-1069-69"
+    type: vmess
+    server: 66.235.200.22
+    port: 443
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /A2DJOPFT
+      headers:
+        Host: lg10.cfcdn1.xyz
+  - name: "@DeamNet_🇪🇸Madrid-1070-70"
+    type: trojan
+    server: 5.135.235.160
+    port: 443
+    password: "a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671"
+    udp: true
+    sni: 5.135.235.160
+    skip-cert-verify: true
+  - name: "@DeamNet_🇺🇸Austin-1071-71"
+    type: vmess
+    server: news.microsoft.com
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /shirker
+      headers:
+        Host: hk.sharecentre.online
+  - name: "@DeamNet_🇺🇸Jacksonville-1072-72"
+    type: vmess
+    server: 66.235.200.21
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+  - name: "@DeamNet_🇺🇸Newark-1073-73"
+    type: vmess
+    server: cf-lt.sharecentre.online
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: kr.sharecentre.online
+    network: ws
+    ws-opts:
+      path: /shirker
+      headers:
+        Host: kr.sharecentre.online
+  - name: "@DeamNet_🇳🇱Amsterdam-1074-74"
+    type: vmess
+    server: nl-v2ray.freevmess.com
+    port: 8443
+    uuid: 8ba412b2-c12d-4566-ee0f-5cd1cc593177
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+  - name: "@DeamNet_🇩🇪Nuremberg-1075-75"
+    type: vmess
+    server: stream.nginxcloud.cf
+    port: 2096
+    uuid: 392f8755-75e7-481e-927e-0f3aae34234e
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: stream.nginxcloud.cf
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: stream.nginxcloud.cf
+  - name: "@DeamNet_🇫🇮Helsinki-1076-76"
+    type: vmess
+    server: 65.109.190.59
+    port: 443
+    uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - bmi.ir
+  - name: "@DeamNet_🇧🇿Belmopan-1077-77"
+    type: vmess
+    server: 203.30.189.190
+    port: 443
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /5QNROSRV
+      headers:
+        Host: oplg1.zhujicn2.com
+  - name: "@DeamNet_🇩🇪Nuremberg-1078-78"
+    type: vmess
+    server: 5.75.198.13
+    port: 8080
+    uuid: 15f397ed-1863-41dd-ccec-cb5113df08e3
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 5.75.198.13
+  - name: "@DeamNet_🇫🇷Strasbourg-1079-79"
+    type: vmess
+    server: 51.77.212.145
+    port: 443
+    uuid: 17afb2a7-428a-4e5d-8785-76249b944b5c
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: yahoo.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 51.77.212.145
+  - name: "@DeamNet_🇬🇧Southport-1080-80"
+    type: vmess
+    server: 185.162.228.229
+    port: 443
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: oplg1.zhujicn2.com
+    network: ws
+    ws-opts:
+      path: /5QNROSRV
+      headers:
+        Host: oplg1.zhujicn2.com
+  - name: "@DeamNet_🇬🇧Southport-1081-81"
+    type: vmess
+    server: 185.162.228.230
+    port: 443
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: lg10.cfcdn1.xyz
+    network: ws
+    ws-opts:
+      path: /A2DJOPFT
+      headers:
+        Host: lg10.cfcdn1.xyz
+  - name: "@DeamNet_🇨🇦Toronto-1082-82"
+    type: vmess
+    server: zhuyong.hucloud-dns.xyz
+    port: 443
+    uuid: 9a18cbb1-81d2-4720-9f09-46ea276b6ddb
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /huhublog
+      headers:
+        Host: zhuyong.hucloud-dns.xyz
+  - name: "@DeamNet_🇫🇮Helsinki-1083-83"
+    type: vmess
+    server: 65.109.190.59
+    port: 443
+    uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 65.109.190.59
+  - name: "@DeamNet_🇳🇱Amsterdam-1084-84"
+    type: trojan
+    server: content-provider24.cdn-delivery.akamaicd.com
+    port: 443
+    password: "Sp3eDVp"
+    udp: true
+    sni: content-provider24.cdn-delivery.akamaicd.com
+    skip-cert-verify: true
+  - name: "@DeamNet_🇨🇦Toronto-1085-85"
+    type: vmess
+    server: 162.159.128.7
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: gcssjp.sylu.cyou
+    network: ws
+    ws-opts:
+      path: /Falling42gcssjpnode
+      headers:
+        Host: gcssjp.sylu.cyou
+  - name: "@DeamNet_🇵🇱Warsaw-1086-86"
+    type: vmess
+    server: gcorepl.sylu.cyou
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /Falling42gcoreplnode
+      headers:
+        Host: gcorepl.sylu.cyou
+  - name: "@DeamNet_🇺🇸Jacksonville-1087-87"
+    type: vmess
+    server: 66.235.200.183
+    port: 443
+    uuid: 92133df1-eabb-c562-81a0-8074913242f6
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: funbro8.online
+    network: ws
+    ws-opts:
+      path: /ecrdvws
+      headers:
+        Host: funbro8.online
+  - name: "@DeamNet_🇨🇷Pozos-1088-88"
+    type: vmess
+    server: 190.93.245.3
+    port: 443
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: oplg1.zhujicn2.com
+    network: ws
+    ws-opts:
+      path: /5QNROSRV
+      headers:
+        Host: oplg1.zhujicn2.com
+  - name: "@DeamNet_🇫🇮Helsinki-1089-89"
+    type: vmess
+    server: 135.181.235.21
+    port: 25034
+    uuid: e549fc8d-2416-46f7-aadc-8747553091b9
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 135.181.235.21
+  - name: "@DeamNet_🇫🇷Paris-1090-90"
+    type: vmess
+    server: 173.245.49.156
+    port: 8443
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: us-171-78.shoptunnel.live
+    network: ws
+    ws-opts:
+      path: /8cda48b3
+      headers:
+        Host: us-171-78.shoptunnel.live
+  - name: "@DeamNet_🇨🇦Toronto-1091-91"
+    type: vmess
+    server: cf-lt.sharecentre.online
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: aes-128-gcm
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: opc-jp.sharecentre.online
+    network: ws
+    ws-opts:
+      path: /shirker
+      headers:
+        Host: opc-jp.sharecentre.online
+  - name: "@DeamNet_🇫🇮Helsinki-1092-92"
+    type: vmess
+    server: 135.181.25.15
+    port: 443
+    uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 135.181.25.15
+  - name: "@DeamNet_🇨🇦Toronto-1093-93"
+    type: vmess
+    server: 172.67.199.34
+    port: 443
+    uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: v12a.toddns.tk
+    network: ws
+    ws-opts:
+      path: /nl-unlimitxxx
+      headers:
+        Host: v12a.toddns.tk
+  - name: "@DeamNet_🇩🇪Frankfurt am Main-1094-94"
+    type: vmess
+    server: 165.227.175.88
+    port: 28164
+    uuid: eba8ccf5-5ab9-4b6b-de4b-83ab920c1005
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 165.227.175.88
+  - name: "@DeamNet_🇩🇪Frankfurt am Main-1095-95"
+    type: vmess
+    server: 165.227.175.88
+    port: 28164
+    uuid: eba8ccf5-5ab9-4b6b-de4b-83ab920c1005
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 165.227.175.88
+  - name: "@DeamNet_🇫🇮Helsinki-1096-96"
+    type: vmess
+    server: 65.109.140.184
+    port: 443
+    uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 65.109.140.184
+  - name: "@DeamNet_🇨🇦Toronto-1097-97"
+    type: vmess
+    server: cf-lt.sharecentre.online
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: sg-gcore.sharecentre.online
+    network: ws
+    ws-opts:
+      path: /shirker
+      headers:
+        Host: sg-gcore.sharecentre.online
+  - name: "@DeamNet_🇫🇷Paris-1098-98"
+    type: vmess
+    server: 173.245.49.23
+    port: 8443
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: us-171-78.shoptunnel.live
+    network: ws
+    ws-opts:
+      path: /8cda48b3
+      headers:
+        Host: us-171-78.shoptunnel.live
+  - name: "@DeamNet_🇩🇪Falkenstein-1099-99"
+    type: vmess
+    server: 168.119.246.88
+    port: 443
+    uuid: 98d8daf4-a386-447e-b80c-d3ca50d5f5f7
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 168.119.246.88
+  - name: "@DeamNet_🇩🇪Falkenstein-1100-100"
+    type: vmess
+    server: 167.235.194.18
+    port: 56064
+    uuid: 754607b1-1a83-47d4-b1f0-8d2dc962f4a2
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 167.235.194.18
+  - name: "@DeamNet_🇩🇪Gunzenhausen-1101-101"
+    type: vmess
+    server: 23.88.61.195
+    port: 56487
+    uuid: 69b68990-6120-48fc-87d9-b91a1efa9b03
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 23.88.61.195
+  - name: "@DeamNet_🇩🇪Nuremberg-1102-102"
+    type: vmess
+    server: 5.75.203.110
+    port: 39756
+    uuid: 5c9547a8-5afa-49eb-936c-1ef808732b05
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 5.75.203.110
+  - name: "@DeamNet_🇩🇪Nuremberg-1103-103"
+    type: vmess
+    server: 5.75.203.110
+    port: 57858
+    uuid: 664a70df-9b58-488f-cb7f-2de9d8f9b8d9
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 5.75.203.110
+  - name: "@DeamNet_🇩🇪Falkenstein-1104-104"
+    type: trojan
+    server: portfolio.progbyrazyar.ir
+    port: 993
+    password: "VicogdVKrP"
+    udp: true
+    sni: portfolio.progbyrazyar.ir
+    skip-cert-verify: true
+  - name: "@DeamNet_🇨🇦Toronto-1105-105"
+    type: vmess
+    server: 172.67.199.34
+    port: 443
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /sshkit/fdfadsfa/63848bfe228fd/
+      headers:
+        Host: us-lb.sshkit.org
+  - name: "@DeamNet_🇨🇦Toronto-1106-106"
+    type: vmess
+    server: cf-lt.sharecentre.online
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: aes-128-gcm
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: kr.sharecentre.online
+    network: ws
+    ws-opts:
+      path: /shirker
+      headers:
+        Host: kr.sharecentre.online
+  - name: "@DeamNet_🇩🇪Nuremberg-1107-107"
+    type: vmess
+    server: 5.75.232.188
+    port: 80
+    uuid: 49693f67-7bed-40b4-9cd8-904d2fe49ef6
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 5.75.232.188
+  - name: "@DeamNet_🇳🇱Amsterdam-1108-108"
+    type: vmess
+    server: tray.tawanaclub.tk
+    port: 48710
+    uuid: 6a53eb79-c7b5-4b22-f923-e284b781d474
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - www.irna.ir
+  - name: "@DeamNet_🇧🇿Belmopan-1109-109"
+    type: vmess
+    server: 203.30.190.191
+    port: 443
+    uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /5QNROSRV
+      headers:
+        Host: oplg1.zhujicn2.com
+  - name: "@DeamNet_🇵🇱Warsaw-1110-110"
+    type: vmess
+    server: 51.68.139.22
+    port: 80
+    uuid: 51743351-cb07-439b-a3ba-8616c0ba7990
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 51.68.139.22
+  - name: "@DeamNet_🇫🇮Helsinki-1111-111"
+    type: vmess
+    server: 65.109.140.184
+    port: 443
+    uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - soft98.ir
+  - name: "@DeamNet_🇫🇷Roubaix-1112-112"
+    type: vmess
+    server: 193.70.85.191
+    port: 80
+    uuid: ed579687-5171-46ad-a89a-bd06af52705d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: Irancell.ir
+  - name: "@DeamNet_🇬🇧Southport-1113-113"
+    type: vmess
+    server: 185.162.228.229
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+  - name: "@DeamNet_🇧🇿Belmopan-1114-114"
+    type: vmess
+    server: 203.30.191.193
+    port: 443
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: lg10.cfcdn1.xyz
+    network: ws
+    ws-opts:
+      path: /A2DJOPFT
+      headers:
+        Host: lg10.cfcdn1.xyz
+  - name: "@DeamNet_🇨🇷Pozos-1115-115"
+    type: vmess
+    server: 190.93.246.2
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: lg1.trump2023.us
+    network: ws
+    ws-opts:
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+  - name: "@DeamNet_🇫🇮Helsinki-1116-116"
+    type: vmess
+    server: 135.181.235.21
+    port: 12951
+    uuid: 18827895-b647-4570-81e2-de3bd795fa04
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 135.181.235.21
+  - name: "@DeamNet_🇺🇸Newark-1117-117"
+    type: vmess
+    server: cdn.chigua.tk
+    port: 443
+    uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: v2.chigua.tk
+  - name: "@DeamNet_🇺🇸Austin-1118-118"
+    type: vmess
+    server: news.microsoft.com
+    port: 443
+    uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /A2DJOPFT
+      headers:
+        Host: lg10.cfcdn1.xyz
+  - name: "@DeamNet_🇩🇪Nuremberg-1119-119"
+    type: vmess
+    server: 5.75.203.110
+    port: 39756
+    uuid: 5c9547a8-5afa-49eb-936c-1ef808732b05
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 5.75.203.110
+  - name: "@DeamNet_🇩🇪Falkenstein-1120-120"
+    type: trojan
+    server: jump.bungeejumpingistanbul.com
+    port: 443
+    password: "1672752854"
+    udp: true
+    sni: jump.bungeejumpingistanbul.com
+    skip-cert-verify: true
+  - name: "@DeamNet_🇬🇧London-1121-121"
+    type: trojan
+    server: 132.145.51.172
+    port: 443
+    password: "02e653c9-7c93-46a9-999d-11834bd0c577"
+    udp: true
+    sni: 132.145.51.172
+    skip-cert-verify: true
+  - name: "@DeamNet_🇫🇷Roubaix-1122-122"
+    type: vmess
+    server: web.v2rng.tk
+    port: 2096
+    uuid: eaaaaf23-ee2a-40dc-9cfd-0799fdec21af
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: v2rng.tk
+    network: ws
+    ws-opts:
+      path: /v2rng.tk
+      headers:
+        Host: v2rng.tk
+  - name: "@DeamNet_🇺🇸Austin-1123-123"
+    type: vmess
+    server: news.microsoft.com
+    port: 443
+    uuid: 40d496a6-ceeb-4096-baeb-4cc52b205621
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /ECTCJ0DF
+      headers:
+        Host: lg1.trump2023.us
+  - name: "@DeamNet_🇩🇪Falkenstein-1124-124"
+    type: vmess
+    server: 167.235.194.18
+    port: 34941
+    uuid: 634e6edf-6765-4c8a-abdb-e6bc2fc00626
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 167.235.194.18
+  - name: "@DeamNet_🇨🇦Toronto-1125-125"
+    type: vmess
+    server: cf-lt.sharecentre.online
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: aes-128-gcm
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: hk.sharecentre.online
+    network: ws
+    ws-opts:
+      path: /shirker
+      headers:
+        Host: hk.sharecentre.online
+  - name: "@DeamNet_🇳🇱Amsterdam-1126-126"
+    type: vmess
+    server: tray.tawanaclub.tk
+    port: 44689
+    uuid: 6cab07ed-7724-489d-ad03-3216a0e6fa54
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - www.irna.ir
+  - name: "@DeamNet_🇬🇧London-1127-127"
+    type: vmess
+    server: 198.244.232.39
+    port: 2096
+    uuid: df46384b-1ad5-40a6-812e-48d60fb80283
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 198.244.232.39
+  - name: "@DeamNet_🇩🇪Nuremberg-1128-128"
+    type: vmess
+    server: 5.75.129.202
+    port: 55039
+    uuid: 151e56df-edd0-43ef-ddc8-f0108a05a792
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 5.75.129.202
+  - name: "@DeamNet_🇨🇦Toronto-1129-129"
+    type: vmess
+    server: cf-lt.sharecentre.online
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: aes-128-gcm
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: us-dp.sharecentre.online
+    network: ws
+    ws-opts:
+      path: /shirker
+      headers:
+        Host: us-dp.sharecentre.online
+  - name: "@DeamNet_🇩🇪Limburg an der Lahn-1130-130"
+    type: trojan
+    server: 51.75.77.146
+    port: 443
+    password: "4331812b-92ff-47b5-9f32-78b5150e625f"
+    udp: true
+    sni: 51.75.77.146
+    skip-cert-verify: true
+  - name: "@DeamNet_🇪🇸Madrid-1131-131"
+    type: trojan
+    server: upload.soft98.download
+    port: 443
+    password: "a2c8194b-fcfd-4c39-a6bd-31ea9f4ea671"
+    udp: true
+    sni: upload.soft98.download
+    skip-cert-verify: true
+  - name: "@DeamNet_🇩🇪Falkenstein-1132-132"
+    type: trojan
+    server: 188.40.251.19
+    port: 443
+    password: "origin"
+    udp: true
+    sni: 188.40.251.19
+    skip-cert-verify: true
+  - name: "@DeamNet_🇳🇱Amsterdam-1133-133"
+    type: trojan
+    server: 185.212.200.75
+    port: 443
+    password: "Sp3eDVp"
+    udp: true
+    sni: 185.212.200.75
+    skip-cert-verify: true
+  - name: "@DeamNet_🇩🇪Nuremberg-1134-134"
+    type: vmess
+    server: onclouds.manihighy.ga
+    port: 443
+    uuid: c2f55a86-50d8-4e13-cc8a-e90ee37a1b78
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: onclouds.manihighy.ga
+  - name: "@DeamNet_🇨🇦Toronto-1135-135"
+    type: vmess
+    server: cf-lt.sharecentre.online
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: aes-128-gcm
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: lu.sharecentre.online
+    network: ws
+    ws-opts:
+      path: /shirker
+      headers:
+        Host: lu.sharecentre.online
+  - name: "@DeamNet_🇫🇮Helsinki-1136-136"
+    type: vmess
+    server: 65.109.191.133
+    port: 443
+    uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 65.109.191.133
+  - name: "@DeamNet_🇫🇷Roubaix-1137-137"
+    type: vmess
+    server: 193.70.85.191
+    port: 80
+    uuid: 88bc28e5-c046-4b96-9c92-e9a75a4f6b92
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 193.70.85.191
+  - name: "@DeamNet_🇫🇷Strasbourg-1138-138"
+    type: vmess
+    server: 51.77.212.145
+    port: 80
+    uuid: 1a6b10f1-f9c2-4fa8-bf2b-3e5b44f84231
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 51.77.212.145
+  - name: "@DeamNet_🇫🇮Helsinki-1139-139"
+    type: vmess
+    server: 65.109.160.231
+    port: 443
+    uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 65.109.160.231
+  - name: "@DeamNet_🇫🇮Helsinki-1140-140"
+    type: vmess
+    server: 65.109.191.208
+    port: 443
+    uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 65.109.191.208
+  - name: "@DeamNet_🇨🇷Pozos-1141-141"
+    type: vmess
+    server: 190.93.246.195
+    port: 443
+    uuid: 4612618c-24cd-4379-9924-cfdf3d61fa5a
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: opfr1.v2rayfree1.xyz
+    network: ws
+    ws-opts:
+      path: /IYKLD53M
+      headers:
+        Host: opfr1.v2rayfree1.xyz
+  - name: "@DeamNet_🇩🇪Frankfurt am Main-1142-142"
+    type: vmess
+    server: 165.227.175.88
+    port: 28164
+    uuid: eba8ccf5-5ab9-4b6b-de4b-83ab920c1005
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 165.227.175.88
+  - name: "@DeamNet_🇩🇪Falkenstein-1143-143"
+    type: vmess
+    server: 88.99.123.246
+    port: 443
+    uuid: 98d8daf4-a386-447e-b80c-d3ca50d5f5f7
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 88.99.123.246
+  - name: "@DeamNet_🇩🇪Nuremberg-1144-144"
+    type: vmess
+    server: 88.198.77.214
+    port: 22878
+    uuid: 17a3584d-3765-4f12-c1ff-a541f5da9ed6
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - snapp.ir
+  - name: "@DeamNet_🇩🇪Limburg an der Lahn-1145-145"
+    type: trojan
+    server: 141.95.61.209
+    port: 1145
+    password: "55e51cd3-cf98-4cb3-aaab-a72044437df3"
+    udp: true
+    sni: 141.95.61.209
+    skip-cert-verify: true
+  - name: "@DeamNet_🇫🇷Roubaix-1146-146"
+    type: trojan
+    server: 176.31.83.90
+    port: 443
+    password: "origin"
+    udp: true
+    sni: 176.31.83.90
+    skip-cert-verify: true
+  - name: "@DeamNet_🇨🇦Toronto-1147-147"
+    type: vmess
+    server: ads.phonepe.com
+    port: 80
+    uuid: 11288503-4f79-4659-a033-bf538ab14499
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /wafa/
+      headers:
+        Host: lg.iwafa.tk
+  - name: "@DeamNet_🇫🇮Helsinki-1148-148"
+    type: vmess
+    server: 135.181.235.21
+    port: 34303
+    uuid: 1ce52047-ad8a-4ef3-cdcd-46ff29b262fb
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 135.181.235.21
+  - name: "@DeamNet_🇫🇮Helsinki-1149-149"
+    type: vmess
+    server: 65.109.191.212
+    port: 443
+    uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 65.109.191.212
+  - name: "@DeamNet_🇫🇮Helsinki-1150-150"
+    type: vmess
+    server: 135.181.235.21
+    port: 25034
+    uuid: e549fc8d-2416-46f7-aadc-8747553091b9
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 135.181.235.21
+  - name: "@DeamNet_🇫🇷Strasbourg-1151-151"
+    type: vmess
+    server: 51.77.212.145
+    port: 80
+    uuid: 17afb2a7-428a-4e5d-8785-76249b944b5c
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 51.77.212.145
+  - name: "@DeamNet_🇩🇪Falkenstein-1152-152"
+    type: vmess
+    server: 168.119.246.88
+    port: 2086
+    uuid: 98dd5e35-3a4c-4794-f7f5-38623e3e9aa0
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /@hashmakvpn
+      headers:
+        Host: 168.119.246.88
+  - name: "@DeamNet_🇫🇷Strasbourg-1153-153"
+    type: vmess
+    server: 51.77.212.145
+    port: 443
+    uuid: 5f6e42bb-2fd1-478b-8f0f-e52b2d6f7652
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: yahoo.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 51.77.212.145
+  - name: "@DeamNet_🇩🇪Falkenstein-1154-154"
+    type: vmess
+    server: gr1.goldv.tk
+    port: 40646
+    uuid: 1581cab9-a199-42c9-efb3-1f7f3fd8f629
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: gr1.goldv.tk
+  - name: "@DeamNet_🇬🇧City of London-1155-155"
+    type: trojan
+    server: 185.16.206.209
+    port: 443
+    password: "shefelnak"
+    udp: true
+    sni: 185.16.206.209
+    skip-cert-verify: true
+  - name: "@DeamNet_🇩🇪Limburg an der Lahn-1156-156"
+    type: trojan
+    server: t2.teslacdn1.live
+    port: 443
+    password: "4331812b-92ff-47b5-9f32-78b5150e625f"
+    udp: true
+    sni: t2.teslacdn1.live
+    skip-cert-verify: true
+  - name: "@DeamNet_🇵🇱Warsaw-1157-157"
+    type: vmess
+    server: gcorepl.sylu.cyou
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: gcorepl.sylu.cyou
+    network: ws
+    ws-opts:
+      path: /Falling42gcoreplnode
+      headers:
+        Host: gcorepl.sylu.cyou
+  - name: "@DeamNet_🇺🇸Chicago-1158-158"
+    type: vmess
+    server: 198.41.203.6
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: fr1.trump2023.org
+    network: ws
+    ws-opts:
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+  - name: "@DeamNet_🇨🇦Toronto-1159-159"
+    type: vmess
+    server: cf-lt.sharecentre.online
+    port: 443
+    uuid: 20e92881-5fb4-4b05-bc77-57929476dc69
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /shirker
+      headers:
+        Host: sg-gcore.sharecentre.online
+  - name: "@DeamNet_🇵🇱Warsaw-1160-160"
+    type: vmess
+    server: 51.68.139.22
+    port: 80
+    uuid: c6744c44-4eb7-48d5-a879-a10474e2ba34
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 51.68.139.22
+  - name: "@DeamNet_🇬🇧City of London-1161-161"
+    type: trojan
+    server: content-provider20.cdn-delivery.akamaicd.com
+    port: 443
+    password: "shefelnak"
+    udp: true
+    sni: content-provider20.cdn-delivery.akamaicd.com
+    skip-cert-verify: true
+  - name: "@DeamNet_🇬🇧City of London-1162-162"
+    type: vmess
+    server: 54.37.18.98
+    port: 80
+    uuid: 88474af8-e748-4933-91e7-bab0d1744b47
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 54.37.18.98
+  - name: "@DeamNet_🇩🇪Limburg an der Lahn-1163-163"
+    type: trojan
+    server: 141.95.61.209
+    port: 1145
+    password: "e45b7759-6512-487b-ab20-22da1f46255f"
+    udp: true
+    sni: 141.95.61.209
+    skip-cert-verify: true
+  - name: "@DeamNet_🇨🇦Toronto-1164-164"
+    type: vmess
+    server: main.millionaireaisle.com
+    port: 443
+    uuid: 2b214122-1906-428a-bbb7-a039cbb7cd5c
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: fr1.trump2023.org
+    network: ws
+    ws-opts:
+      path: /9JZFDTKE
+      headers:
+        Host: fr1.trump2023.org
+  - name: "@DeamNet_🇷🇺Zelenograd-1165-165"
+    type: vmess
+    server: v12a.toddns.tk
+    port: 80
+    uuid: a25881f3-967f-3265-bc7f-9e66857b016b
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /nl-unlimitxxx
+      headers:
+        Host: v12a.toddns.tk
+  - name: "@DeamNet_🇩🇪Limburg an der Lahn-1166-166"
+    type: trojan
+    server: 141.95.61.209
+    port: 1145
+    password: "414583b6-1d14-49f4-9988-9d6849efb420"
+    udp: true
+    sni: 141.95.61.209
+    skip-cert-verify: true
+  - name: "@DeamNet_🇵🇱Warsaw-1167-167"
+    type: vmess
+    server: 146.59.92.219
+    port: 2096
+    uuid: aca71b13-ec8a-466d-c28f-43516d3cf246
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 146.59.92.219
+  - name: "@DeamNet_🇨🇦Toronto-1168-168"
+    type: vmess
+    server: ca-v2ray.ipracevpn.com
+    port: 8443
+    uuid: be5087af-18ea-43f4-971b-83803bb29743
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+  - name: "@DeamNet_🇺🇸Secaucus-1169-169"
+    type: trojan
+    server: 138.124.183.222
+    port: 443
+    password: "xxoo"
+    udp: true
+    sni: 138.124.183.222
+    skip-cert-verify: true
+  - name: "@DeamNet_🇺🇸Secaucus-1170-170"
+    type: trojan
+    server: 138.124.183.226
+    port: 443
+    password: "xxoo"
+    udp: true
+    sni: 138.124.183.226
+    skip-cert-verify: true
+  - name: "@DeamNet_🇺🇸Secaucus-1171-171"
+    type: trojan
+    server: 138.124.183.216
+    port: 443
+    password: "xxoo"
+    udp: true
+    sni: 138.124.183.216
+    skip-cert-verify: true
+  - name: "@DeamNet_🇺🇸Chicago-1172-172"
+    type: vmess
+    server: 50.7.8.205
+    port: 55450
+    uuid: 4f1b83d4-ff3a-4bf4-d4b3-0b2b37e9c00b
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 50.7.8.205
+  - name: "@DeamNet_🇸🇦Jeddah-1173-173"
+    type: vmess
+    server: 193.122.65.167
+    port: 80
+    uuid: ed71c245-88af-484e-970c-29ac50637847
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 193.122.65.167
+  - name: "@DeamNet_🇬🇧Coventry-1174-174"
+    type: vmess
+    server: 77.91.101.144
+    port: 31141
+    uuid: 96cc10ce-9a99-4dcb-c7e5-ba50903d43ca
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 77.91.101.144
+  - name: "@DeamNet_🇨🇦Toronto-1175-175"
+    type: vmess
+    server: ca-v2ray.freevmess.com
+    port: 8443
+    uuid: 30636217-aa5f-4c1b-ebec-f28b463d3fc0
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+  - name: "@DeamNet_🇺🇸Secaucus-1176-176"
+    type: trojan
+    server: 138.124.183.222
+    port: 443
+    password: "xxoo"
+    udp: true
+    sni: 138.124.183.222
+    skip-cert-verify: true
+  - name: "@DeamNet_🇬🇧Coventry-1177-177"
+    type: trojan
+    server: 146.19.230.241
+    port: 443
+    password: "xxoo"
+    udp: true
+    sni: 146.19.230.241
+    skip-cert-verify: true
+  - name: "@DeamNet_🇬🇧London-1178-178"
+    type: vmess
+    server: 138.68.187.131
+    port: 4782
+    uuid: faf56230-5709-46e0-f05e-f499a7068ec8
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 138.68.187.131
+  - name: "@DeamNet_🇩🇪Limburg an der Lahn-1179-179"
+    type: trojan
+    server: t2.teslacdn1.live
+    port: 443
+    password: "4331812b-92ff-47b5-9f32-78b5150e625f"
+    udp: true
+    sni: t2.teslacdn1.live
+    skip-cert-verify: true
+  - name: "@DeamNet_🇨🇦Toronto-1180-180"
+    type: vmess
+    server: awsypca.sylu.cyou
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: awsypca.sylu.cyou
+    network: ws
+    ws-opts:
+      path: /Falling42awsypcanode
+      headers:
+        Host: awsypca.sylu.cyou
+  - name: "@DeamNet_🇰🇷Seoul-1181-181"
+    type: vmess
+    server: 152.70.252.218
+    port: 10020
+    uuid: fb91e1d7-440e-4470-b0a0-a791e5c32dc8
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 152.70.252.218
+  - name: "@DeamNet_🇬🇧London-1182-182"
+    type: vmess
+    server: 138.68.187.131
+    port: 4782
+    uuid: faf56230-5709-46e0-f05e-f499a7068ec8
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 138.68.187.131
+  - name: "@DeamNet_🇸🇬Singapore-1183-183"
+    type: vmess
+    server: 139.99.61.154
+    port: 80
+    uuid: c4d7cd44-9adb-4a35-af03-4d1641f1eac7
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 139.99.61.154
+  - name: "@DeamNet_🇸🇬Singapore-1184-184"
+    type: vmess
+    server: 129.150.44.64
+    port: 46075
+    uuid: da257e73-f02b-45ab-9916-7baf154c47a3
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /jhndsmlanj11223
+      headers:
+        Host: 129.150.44.64
+  - name: "@DeamNet_🇺🇸San Jose-1185-185"
+    type: vmess
+    server: 129.159.41.233
+    port: 32586
+    uuid: 341a9182-c423-499c-c46e-d17838b29037
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "@DeamNet_🇺🇸Fremont-1186-186"
+    type: vmess
+    server: vus4.0bad.com
+    port: 443
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /chat
+      headers:
+        Host: vus4.0bad.com
+  - name: "@DeamNet_🇺🇸Chicago-1187-187"
+    type: vmess
+    server: 5.78.46.27
+    port: 443
+    uuid: c2fbed75-94bd-49ce-b0d6-5074574a76bc
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 5.78.46.27
+  - name: "@DeamNet_🇺🇸Portland-1188-188"
+    type: vmess
+    server: 5.78.63.45
+    port: 19176
+    uuid: 79f9b0c1-02ac-4646-8275-d149582e319e
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 5.78.63.45
+  - name: "@DeamNet_🇺🇸Hillsboro-1189-189"
+    type: vmess
+    server: 51.81.220.195
+    port: 80
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /sshkit/@HTTPinjectorcustom/63b02756f0507/
+      headers:
+        Host: soft98.ir
+  - name: "@DeamNet_🇸🇬Singapore-1190-190"
+    type: trojan
+    server: 194.233.88.109
+    port: 443
+    password: "123456"
+    udp: true
+    sni: 194.233.88.109
+    skip-cert-verify: true
+  - name: "@DeamNet_🇸🇬Singapore-1191-191"
+    type: vmess
+    server: 15.235.184.36
+    port: 80
+    uuid: 7ce525f5-3a9b-4627-ae0e-3ca0b57519e3
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 15.235.184.36
+  - name: "@DeamNet_🇸🇬Singapore-1192-192"
+    type: vmess
+    server: 139.99.91.95
+    port: 443
+    uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+    alterId: 32
+    cipher: auto
+    udp: true
+  - name: "@DeamNet_🇺🇸Portland-1193-193"
+    type: vmess
+    server: 5.78.63.45
+    port: 58966
+    uuid: 1075036d-378f-4c24-be42-1d6d3bbabc33
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 5.78.63.45
+  - name: "@DeamNet_🇸🇬Singapore-1194-194"
+    type: trojan
+    server: trojan-ctb-sg01.globalssh.xyz
+    port: 443
+    password: "123456"
+    udp: true
+    sni: trojan-ctb-sg01.globalssh.xyz
+    skip-cert-verify: true
+  - name: "@DeamNet_🇸🇬Singapore-1195-195"
+    type: vmess
+    server: 168.138.184.67
+    port: 47165
+    uuid: a4ead4e6-c4db-458a-c612-a3991f4081d2
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - apple.com
+  - name: "@DeamNet_🇸🇬Singapore-1196-196"
+    type: trojan
+    server: 15.235.163.25
+    port: 443
+    password: "8eb63951-0286-4d33-98cd-f46007afa74e"
+    udp: true
+    sni: 15.235.163.25
+    skip-cert-verify: true
+  - name: "@DeamNet_🇸🇬Singapore-1197-197"
+    type: vmess
+    server: 139.99.61.53
+    port: 80
+    uuid: 60f30e26-0af7-4b64-ba94-71450ed77e23
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 139.99.61.53
+  - name: "@DeamNet_🇸🇬Singapore-1198-198"
+    type: vmess
+    server: 139.99.61.154
+    port: 80
+    uuid: 6a620223-84f8-40f4-b6ba-ed6abfe4e4f2
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 139.99.61.154
+  - name: "@DeamNet_🇺🇸San Jose-1199-199"
+    type: vmess
+    server: 152.67.254.16
+    port: 43815
+    uuid: 7a9f026f-f7a8-40ca-f2f9-3b380c287c0d
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /abc
+      headers:
+        Host: 152.67.254.16
+  - name: "@DeamNet_🇸🇬Singapore-1200-200"
+    type: vmess
+    server: 15.235.202.111
+    port: 80
+    uuid: cb552982-77de-4c97-9247-1989136ce4ab
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 15.235.202.111
+  - name: "@DeamNet_🇺🇸Los Angeles-1201-201"
+    type: vmess
+    server: 67.21.72.41
+    port: 443
+    uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724
+    alterId: 64
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: www.17080100.xyz
+    network: ws
+    ws-opts:
+      path: /path/173418141123
+      headers:
+        Host: www.17080100.xyz
+  - name: "@DeamNet_🇸🇬Singapore-1202-202"
+    type: vmess
+    server: 139.99.61.53
+    port: 80
+    uuid: cd2f622d-22f1-4840-b403-97c84f79c809
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 139.99.61.53
+  - name: "@DeamNet_🇺🇸Portland-1203-203"
+    type: vmess
+    server: 5.78.63.45
+    port: 58966
+    uuid: 1075036d-378f-4c24-be42-1d6d3bbabc33
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 5.78.63.45
+  - name: "@DeamNet_🇺🇸Portland-1204-204"
+    type: vmess
+    server: 5.78.63.45
+    port: 19176
+    uuid: 79f9b0c1-02ac-4646-8275-d149582e319e
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 5.78.63.45
+  - name: "@DeamNet_🇯🇵Tokyo-1205-205"
+    type: trojan
+    server: 150.230.96.103
+    port: 443
+    password: "da777aae-defb-41d0-a183-2c27da2b4677"
+    udp: true
+    sni: 150.230.96.103
+    skip-cert-verify: true
+  - name: "@DeamNet_🇸🇬Singapore-1206-206"
+    type: trojan
+    server: sghe.tjvpn.org
+    port: 443
+    password: "99a3fe00-89cf-11ed-b834-225401db9d57"
+    udp: true
+    sni: sghe.tjvpn.org
+    skip-cert-verify: true
+  - name: "@DeamNet_🇺🇸Los Angeles-1207-207"
+    type: trojan
+    server: 107.181.161.163
+    port: 443
+    password: "d1478689-439c-4590-b7ce-36e786a02dc3"
+    udp: true
+    sni: 107.181.161.163
+    skip-cert-verify: true
+  - name: "@DeamNet_🇺🇸San Jose-1208-208"
+    type: vmess
+    server: 129.159.41.233
+    port: 32586
+    uuid: 341a9182-c423-499c-c46e-d17838b29037
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "@DeamNet_🇯🇵Tokyo-1209-209"
+    type: vmess
+    server: suzhihan.eu.org
+    port: 443
+    uuid: 0b873cff-11ab-4716-c41a-04f886135091
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /roewesu
+      headers:
+        Host: suzhihan.eu.org
+  - name: "@DeamNet_🇺🇸Hillsboro-1210-210"
+    type: vmess
+    server: 51.81.220.195
+    port: 80
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /sshkit/Variu88/634dab7abadf1/
+      headers:
+        Host: 51.81.220.195
+  - name: "@DeamNet_🇺🇸Los Angeles-1211-211"
+    type: vmess
+    server: 216.45.54.175
+    port: 34152
+    uuid: 02b5a95f-2453-464d-bb99-ede41caf9b5b
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 216.45.54.175
+  - name: "@DeamNet_🇸🇬Singapore-1212-212"
+    type: vmess
+    server: 15.235.140.178
+    port: 80
+    uuid: 275ff4e2-8054-44ed-b996-e3d19c21a55b
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 15.235.140.178
+  - name: "@DeamNet_🇺🇸Hillsboro-1213-213"
+    type: vmess
+    server: 15.204.57.226
+    port: 80
+    uuid: ea9dfc5c-77e9-4986-be71-5e6b51d485c9
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 15.204.57.226
+  - name: "@DeamNet_🇺🇸Phoenix-1214-214"
+    type: vmess
+    server: 129.146.133.157
+    port: 51009
+    uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "@DeamNet_🇦🇪Al Fujairah City-1215-215"
+    type: vmess
+    server: AE-68-218.shoptunnel.live
+    port: 31990
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "@DeamNet_🇺🇸Los Angeles-1216-216"
+    type: trojan
+    server: 107.181.161.163
+    port: 443
+    password: "d1478689-439c-4590-b7ce-36e786a02dc3"
+    udp: true
+    sni: 107.181.161.163
+    skip-cert-verify: true
+  - name: "@DeamNet_🇺🇸Phoenix-1217-217"
+    type: trojan
+    server: 129.146.255.158
+    port: 443
+    password: "f39bd244-f5fe-415c-8b98-a1e5250bf178"
+    udp: true
+    sni: 129.146.255.158
+    skip-cert-verify: true
+  - name: "@DeamNet_🇺🇸Chicago-1218-218"
+    type: vmess
+    server: 5.78.46.27
+    port: 2095
+    uuid: 84cfc03c-e009-404f-f5a8-2cc4901b9d3b
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /@hashmakvpn
+      headers:
+        Host: 5.78.46.27
+  - name: "@DeamNet_🇺🇸Los Angeles-1219-219"
+    type: trojan
+    server: youtube-bai-piao-wang-zhe-usa.98848.xyz
+    port: 443
+    password: "d1478689-439c-4590-b7ce-36e786a02dc3"
+    udp: true
+    sni: youtube-bai-piao-wang-zhe-usa.98848.xyz
+    skip-cert-verify: true
+  - name: "@DeamNet_🇸🇬Singapore-1220-220"
+    type: vmess
+    server: 15.235.202.111
+    port: 80
+    uuid: 8097cc41-e2b8-46cc-b1e2-c9fe4776a9c2
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 15.235.202.111
+  - name: "@DeamNet_🇦🇪Al Fujairah City-1221-221"
+    type: vmess
+    server: ae-68-218.shoptunnel.live
+    port: 31990
+    uuid: a6a37e04-5e81-44c9-be53-baa3ff46eb8b
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "@DeamNet_🇺🇸Los Angeles-1222-222"
+    type: trojan
+    server: youtube-bai-piao-wang-zhe-usa.98848.xyz
+    port: 443
+    password: "d1478689-439c-4590-b7ce-36e786a02dc3"
+    udp: true
+    sni: youtube-bai-piao-wang-zhe-usa.98848.xyz
+    skip-cert-verify: true
+  - name: "@DeamNet_🇸🇬Singapore-1223-223"
+    type: vmess
+    server: 139.99.91.95
+    port: 443
+    uuid: c0156451-4efb-45e2-84fc-8d315c4650db
+    alterId: 32
+    cipher: auto
+    udp: true
+  - name: "@DeamNet_🇸🇬Singapore-1224-224"
+    type: vmess
+    server: 18.143.123.35
+    port: 80
+    uuid: 68df4838-46d0-4b5b-c3f0-a40ec7063245
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 18.143.123.35
+  - name: "@DeamNet_🇺🇸Phoenix-1225-225"
+    type: vmess
+    server: 129.146.133.157
+    port: 51009
+    uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "@DeamNet_🇸🇬Singapore-1226-226"
+    type: vmess
+    server: 129.150.44.64
+    port: 46075
+    uuid: da257e73-f02b-45ab-9916-7baf154c47a3
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /jhndsmlanj11223
+      headers:
+        Host: 129.150.44.64
+  - name: "@DeamNet_🇺🇸Los Angeles-1227-227"
+    type: trojan
+    server: youtube-bai-piao-wang-zhe-usa.98848.xyz
+    port: 443
+    password: "d1478689-439c-4590-b7ce-36e786a02dc3"
+    udp: true
+    sni: youtube-bai-piao-wang-zhe-usa.98848.xyz
+    skip-cert-verify: true
+  - name: "@DeamNet_🇯🇵Tokyo-1228-228"
+    type: vmess
+    server: 168.138.206.141
+    port: 80
+    uuid: ad05e01f-c2c0-41da-e79c-ff68237317f7
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 168.138.206.141
+  - name: "@DeamNet_🇸🇬Singapore-1229-229"
+    type: vmess
+    server: 168.138.171.65
+    port: 443
+    uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+  - name: "@DeamNet_🇺🇸Phoenix-1230-230"
+    type: trojan
+    server: 129.146.242.130
+    port: 443
+    password: "05742120-ce23-4cc8-88f5-6d221ce45bf4"
+    udp: true
+    sni: 129.146.242.130
+    skip-cert-verify: true
+  - name: "@DeamNet_🇯🇵Tokyo-1231-231"
+    type: vmess
+    server: 139.162.104.56
+    port: 443
+    uuid: bdd8a1c4-bfdb-46ef-a8db-44506c8d113d
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: yahoo.com
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 139.162.104.56
+  - name: "@DeamNet_🇯🇵Tokyo-1232-232"
+    type: trojan
+    server: 150.230.217.213
+    port: 443
+    password: "c09eb137-bf68-4658-84e0-102d94b74168"
+    udp: true
+    sni: 150.230.217.213
+    skip-cert-verify: true
+  - name: "@DeamNet_🇺🇸Phoenix-1233-233"
+    type: trojan
+    server: 129.146.190.42
+    port: 443
+    password: "dbf9bf9c-2c3f-474a-8031-d4c00666a989"
+    udp: true
+    sni: 129.146.190.42
+    skip-cert-verify: true
+  - name: "@DeamNet_🇸🇬Singapore-1234-234"
+    type: vmess
+    server: gcsssg.sylu.cyou
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: gcsssg.sylu.cyou
+    network: ws
+    ws-opts:
+      path: /Falling42gcsssgnode
+      headers:
+        Host: gcsssg.sylu.cyou
+  - name: "@DeamNet_🇺🇸Hillsboro-1235-235"
+    type: vmess
+    server: 15.204.57.226
+    port: 80
+    uuid: be741417-6694-45f9-8bbd-80efba3c8dc6
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 15.204.57.226
+  - name: "@DeamNet_🇸🇬Singapore-1236-236"
+    type: vmess
+    server: 15.235.202.111
+    port: 80
+    uuid: aa0acd17-6c9a-444b-abbc-a41d31b960c3
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 15.235.202.111
+  - name: "@DeamNet_🇺🇸Hillsboro-1237-237"
+    type: vmess
+    server: 15.204.31.63
+    port: 80
+    uuid: 6d1f0eca-f508-4da4-9aba-0378f85f83d0
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 15.204.31.63
+  - name: "@DeamNet_🇸🇬Singapore-1238-238"
+    type: vmess
+    server: sg1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
+    port: 7204
+    uuid: 9c52776b-4b01-4ae6-9f7d-25cd4725e13c
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /sg1
+      headers:
+        Host: sg1.535eb521-9fe0-4478-b090-2a5cee4bb04a.nbvpn.org
+  - name: "@DeamNet_🇯🇵Tokyo-1239-239"
+    type: vmess
+    server: 168.138.207.66
+    port: 21365
+    uuid: 905f99b1-e7ba-45e0-ae4d-b0ffdf0ad245
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "@DeamNet_🇸🇬Singapore-1240-240"
+    type: trojan
+    server: sghe.tjvpn.org
+    port: 443
+    password: "b957dbb0-86ee-11ed-b732-225401db9d57"
+    udp: true
+    sni: sghe.tjvpn.org
+    skip-cert-verify: true
+  - name: "@DeamNet_🇸🇬Singapore-1241-241"
+    type: vmess
+    server: 139.99.61.154
+    port: 80
+    uuid: 827d6917-6bcd-4932-aefd-87e945652952
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 139.99.61.154
+  - name: "@DeamNet_🇸🇬Singapore-1242-242"
+    type: trojan
+    server: trojan-ctb-sg01.globalssh.xyz
+    port: 443
+    password: "123456"
+    udp: true
+    sni: trojan-ctb-sg01.globalssh.xyz
+    skip-cert-verify: true
+  - name: "@DeamNet_🇸🇬Singapore-1243-243"
+    type: vmess
+    server: sg-v.sshmax.xyz
+    port: 443
+    uuid: 13ca4087-50e9-4911-b6ec-a5eaf4b3c039
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: sg-v.sshmax.xyz
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg-v.sshmax.xyz
+  - name: "@DeamNet_🇭🇰Central-1244-244"
+    type: vmess
+    server: gcsshk.sylu.cyou
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: gcsshk.sylu.cyou
+    network: ws
+    ws-opts:
+      path: /Falling42gcsshknode
+      headers:
+        Host: gcsshk.sylu.cyou
+  - name: "@DeamNet_🇺🇸Hillsboro-1245-245"
+    type: vmess
+    server: 15.204.31.63
+    port: 80
+    uuid: f53fcd40-bf74-431f-8a56-bd2035f8d795
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 15.204.31.63
+  - name: "@DeamNet_🇭🇰Cheung Sha Wan-1246-246"
+    type: vmess
+    server: hrgdvpn.flycdnedc55.vip
+    port: 80
+    uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /opt/video/images
+      headers:
+        Host: hrgdvpn.flycdnedc55.vip
+  - name: "@DeamNet_🇭🇰Hong Kong-1247-247"
+    type: vmess
+    server: petal.ga
+    port: 443
+    uuid: b744f5cc-eab2-d2cd-f477-76646d17987f
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: petal.ga
+    network: ws
+    ws-opts:
+      path: /petalvws
+      headers:
+        Host: petal.ga
+  - name: "@DeamNet_🇰🇷Seoul-1248-248"
+    type: vmess
+    server: 146.56.155.70
+    port: 18050
+    uuid: f9771c19-c91c-41b5-9064-8768b51cec6d
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "@DeamNet_🇸🇬Singapore-1249-249"
+    type: vmess
+    server: 172.104.167.240
+    port: 7203
+    uuid: 9c52776b-4b01-4ae6-9f7d-25cd4725e13c
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /sg1
+      headers:
+        Host: 172.104.167.240
+  - name: "@DeamNet_🇭🇰Central-1250-250"
+    type: vmess
+    server: gcsshkkk.sylu.cyou
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /Falling42gcsshkkknode
+      headers:
+        Host: gcsshkkk.sylu.cyou
+  - name: "@DeamNet_🇭🇰Cheung Sha Wan-1251-251"
+    type: vmess
+    server: 182.16.1.194
+    port: 80
+    uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /opt/video/images
+      headers:
+        Host: 182.16.1.194
+  - name: "@DeamNet_🇭🇰Hong Kong-1252-252"
+    type: vmess
+    server: hk1vdf-node.aiqiche123.com
+    port: 8189
+    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+  - name: "@DeamNet_🇭🇰Cheung Sha Wan-1253-253"
+    type: vmess
+    server: hrgdvpn.flycdnedc55.vip
+    port: 80
+    uuid: 00a1da14-d55f-5f75-e346-79b985e1a723
+    alterId: 64
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /opt/video/images
+      headers:
+        Host: hrgdvpn.flycdnedc55.vip
+  - name: "@DeamNet_🇭🇰Central-1254-254"
+    type: vmess
+    server: gcorehkk.sylu.cyou
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: gcorehkk.sylu.cyou
+    network: ws
+    ws-opts:
+      path: /Falling42gcorehkknode
+      headers:
+        Host: gcorehkk.sylu.cyou
+  - name: "@DeamNet_🇺🇸Hillsboro-1255-255"
+    type: vmess
+    server: 15.204.31.63
+    port: 80
+    uuid: 802d7d01-4af6-4327-a812-6fa8d4626995
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 15.204.31.63
+  - name: "@DeamNet_🇺🇸Hillsboro-1256-256"
+    type: vmess
+    server: 15.204.31.63
+    port: 80
+    uuid: 23df6ac4-70b8-4f31-a04e-7ebcc060009b
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 15.204.31.63
+  - name: "@DeamNet_🇰🇷Chuncheon-1257-257"
+    type: trojan
+    server: 138.2.113.248
+    port: 443
+    password: "9c822f05-cfdc-479a-9534-60f3d4127435"
+    udp: true
+    sni: 138.2.113.248
+    skip-cert-verify: true
+  - name: "@DeamNet_🇭🇰Hong Kong-1258-258"
+    type: vmess
+    server: 206.119.112.6
+    port: 8189
+    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+  - name: "@DeamNet_🇭🇰Hong Kong-1259-259"
+    type: vmess
+    server: 206.119.112.6
+    port: 8189
+    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+    alterId: 10
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+  - name: "@DeamNet_🇲🇴Macao-1260-260"
+    type: vmess
+    server: 45.64.22.22
+    port: 443
+    uuid: e55ed7b2-ed4f-480c-8b99-08482da1e4c7
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: hkbn.pgypgykmoljklj.xyz
+    network: ws
+    ws-opts:
+      path: /OB7jTM5cTTrL
+      headers:
+        Host: hkbn.pgypgykmoljklj.xyz
+  - name: "@DeamNet_🇭🇰Hong Kong-1261-261"
+    type: vmess
+    server: petal.ga
+    port: 443
+    uuid: b744f5cc-eab2-d2cd-f477-76646d17987f
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /petalvws
+      headers:
+        Host: petal.ga
+  - name: "@DeamNet_🇭🇰Central-1262-262"
+    type: vmess
+    server: gcsshkkk.sylu.cyou
+    port: 443
+    uuid: 12e08256-da5d-4b1c-aeca-8c973ccceef8
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: gcsshkkk.sylu.cyou
+    network: ws
+    ws-opts:
+      path: /Falling42gcsshkkknode
+      headers:
+        Host: gcsshkkk.sylu.cyou
+  - name: "@DeamNet_🇮🇳Hyderabad-1263-263"
+    type: trojan
+    server: 152.67.190.183
+    port: 443
+    password: "006baa3f-4bc3-4915-b60d-c8c5dae11a11"
+    udp: true
+    sni: 152.67.190.183
+    skip-cert-verify: true
+  - name: "@DeamNet_🇸🇬Singapore-1264-264"
+    type: vmess
+    server: 139.99.61.53
+    port: 80
+    uuid: e71976d2-8723-4108-8cf8-6798d4df963a
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 139.99.61.53
+  - name: "@DeamNet_🇰🇷Chuncheon-1265-265"
+    type: vmess
+    server: 152.67.218.38
+    port: 443
+    uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: YouTube-aweikeji
+  - name: "@DeamNet_🇰🇷Chuncheon-1266-266"
+    type: vmess
+    server: 152.67.218.38
+    port: 443
+    uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 152.67.218.38
+  - name: "@DeamNet_🇰🇷Chuncheon-1267-267"
+    type: trojan
+    server: 144.24.72.126
+    port: 443
+    password: "7118b5f4-0ea4-4c11-be7f-11471cb91e4a"
+    udp: true
+    sni: 144.24.72.126
+    skip-cert-verify: true
+  - name: "@DeamNet_🇰🇷Seoul-1268-268"
+    type: trojan
+    server: 146.56.189.146
+    port: 443
+    password: "f2117e99-9b6e-47fd-b0a9-634a0b15b998"
+    udp: true
+    sni: 146.56.189.146
+    skip-cert-verify: true
+  - name: "@DeamNet_🇯🇵Tokyo-1269-269"
+    type: vmess
+    server: vjp1.0bad.com
+    port: 443
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /chat
+      headers:
+        Host: vjp1.0bad.com
+  - name: "@DeamNet_🇸🇬Singapore-1270-270"
+    type: vmess
+    server: 188.166.220.133
+    port: 2083
+    uuid: c95f6383-6ce8-4e18-a4ad-76bd20a908d7
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: zoom.us
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: zoom.us
+  - name: "@DeamNet_🇰🇷Seoul-1271-271"
+    type: vmess
+    server: lc-kr02-direct01.lc-kr02.lc-node.com
+    port: 443
+    uuid: ec736482-173e-3eff-9114-b49df8056e7d
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: lc-kr02-direct01.lc-kr02.lc-node.com
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: lc-kr02-direct01.lc-kr02.lc-node.com
+  - name: "@DeamNet_🇯🇵Osaka-1272-272"
+    type: vmess
+    server: 152.69.197.60
+    port: 1069
+    uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "@DeamNet_🇯🇵Osaka-1273-273"
+    type: trojan
+    server: 168.138.44.176
+    port: 443
+    password: "8d2d5953-d649-4034-94f2-72f2df2623da"
+    udp: true
+    sni: 168.138.44.176
+    skip-cert-verify: true
+  - name: "@DeamNet_🇦🇺Sydney-1274-274"
+    type: trojan
+    server: 140.238.205.173
+    port: 443
+    password: "cb43b7c2-b744-41c5-bcc2-fd7467b332cf"
+    udp: true
+    sni: 140.238.205.173
+    skip-cert-verify: true
+  - name: "@DeamNet_🇯🇵Tokyo-1275-275"
+    type: vmess
+    server: 168.138.207.66
+    port: 21365
+    uuid: 905f99b1-e7ba-45e0-ae4d-b0ffdf0ad245
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "@DeamNet_🇰🇷Chuncheon-1276-276"
+    type: vmess
+    server: 152.69.230.170
+    port: 80
+    uuid: 6aa24ded-5f15-48c7-8cba-3e2a159d6b77
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 152.69.230.170
+  - name: "@DeamNet_🇰🇷Seoul-1277-277"
+    type: vmess
+    server: 1.1808.cf
+    port: 443
+    uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: v2.chigua.tk
+  - name: "@DeamNet_🇰🇷Chuncheon-1278-278"
+    type: vmess
+    server: 152.67.218.38
+    port: 443
+    uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 152.67.218.38
+  - name: "@DeamNet_🇸🇬Singapore-1279-279"
+    type: vmess
+    server: 157.230.36.235
+    port: 80
+    uuid: b484d576-b3e3-4ac5-b108-88a300dfe7e3
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /graphql
+      headers:
+        Host: 157.230.36.235
+  - name: "@DeamNet_🇯🇵Osaka-1280-280"
+    type: trojan
+    server: 168.138.43.89
+    port: 443
+    password: "d06a3f01-1ff0-4792-9b8e-a5a604bc74a2"
+    udp: true
+    sni: 168.138.43.89
+    skip-cert-verify: true
+  - name: "@DeamNet_🇦🇺Sydney-1281-281"
+    type: trojan
+    server: 152.67.98.30
+    port: 443
+    password: "e8c1ab3c-89b3-4933-92df-682e6dce7819"
+    udp: true
+    sni: 152.67.98.30
+    skip-cert-verify: true
+  - name: "@DeamNet_🇰🇷Chuncheon-1282-282"
+    type: trojan
+    server: 138.2.113.84
+    port: 443
+    password: "b291d129-ee55-4801-a9b8-b5316e5c37b7"
+    udp: true
+    sni: 138.2.113.84
+    skip-cert-verify: true
+  - name: "@DeamNet_🇯🇵Osaka-1283-283"
+    type: vmess
+    server: 140.83.57.80
+    port: 49840
+    uuid: 2969ad1b-9787-4927-94e6-22f597618de0
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "@DeamNet_🇸🇬Singapore-1284-284"
+    type: vmess
+    server: 157.230.36.235
+    port: 80
+    uuid: b484d576-b3e3-4ac5-b108-88a300dfe7e3
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /graphql
+      headers:
+        Host: 157.230.36.235
+  - name: "@DeamNet_🇦🇺Sydney-1285-285"
+    type: vmess
+    server: vau1.0bad.com
+    port: 443
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: vau1.0bad.com
+    network: ws
+    ws-opts:
+      path: /chat
+      headers:
+        Host: vau1.0bad.com
+  - name: "@DeamNet_🇰🇷Seoul-1286-286"
+    type: vmess
+    server: 161.129.34.102
+    port: 443
+    uuid: ec736482-173e-3eff-9114-b49df8056e7d
+    alterId: 2
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: lc-kr02-direct01.lc-kr02.lc-node.com
+  - name: "@DeamNet_🇯🇵Osaka-1287-287"
+    type: trojan
+    server: 138.2.45.243
+    port: 443
+    password: "c19d1432-8b3e-4818-8837-3d160cf65908"
+    udp: true
+    sni: 138.2.45.243
+    skip-cert-verify: true
+  - name: "@DeamNet_🇰🇷Seoul-1288-288"
+    type: vmess
+    server: lc-kr02-direct01.lc-kr02.lc-node.com
+    port: 443
+    uuid: ec736482-173e-3eff-9114-b49df8056e7d
+    alterId: 2
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: lc-kr02-direct01.lc-kr02.lc-node.com
+  - name: "@DeamNet_🇭🇰Hong Kong-1289-289"
+    type: vmess
+    server: 206.119.112.6
+    port: 8189
+    uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+    alterId: 10
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+  - name: "@DeamNet_🇭🇺Budapest-1290-290"
+    type: vmess
+    server: 185.225.69.134
+    port: 45081
+    uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "@DeamNet_🇭🇺Budapest-1291-291"
+    type: vmess
+    server: 185.225.69.134
+    port: 45081
+    uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9
+    alterId: 64
+    cipher: auto
+    udp: true
+  - name: "@DeamNet_🇭🇺Budapest-1292-292"
+    type: vmess
+    server: 185.225.69.134
+    port: 45081
+    uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9
+    alterId: 64
+    cipher: auto
+    udp: true
+  - name: "@DeamNet_🇮🇳Bengaluru-1293-293"
+    type: vmess
+    server: 68.183.83.94
+    port: 59477
+    uuid: b8f6a71c-6925-4e84-fb93-6e54f8d98b25
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 68.183.83.94
+  - name: "@DeamNet_🇮🇳Hyderabad-1294-294"
+    type: trojan
+    server: 152.67.162.166
+    port: 443
+    password: "e05c749b-7c6b-41b8-9c71-9dcf685edf4a"
+    udp: true
+    sni: 152.67.162.166
+    skip-cert-verify: true
+  - name: "@DeamNet_🇮🇳Hyderabad-1295-295"
+    type: trojan
+    server: 152.67.160.174
+    port: 443
+    password: "54080134-2cba-4535-8599-95650bd9aa54"
+    udp: true
+    sni: 152.67.160.174
+    skip-cert-verify: true
+  - name: "@DeamNet_🇰🇷Seoul-1296-296"
+    type: vmess
+    server: 161.129.34.102
+    port: 443
+    uuid: ec736482-173e-3eff-9114-b49df8056e7d
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 161.129.34.102
+  - name: "@DeamNet_🇭🇺Budapest-1297-297"
+    type: vmess
+    server: 185.225.69.134
+    port: 45081
+    uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9
+    alterId: 0
+    cipher: auto
+    udp: true
+  - name: "@DeamNet_🇫🇮Helsinki-1298-298"
+    type: vmess
+    server: 65.109.134.120
+    port: 443
+    uuid: 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 65.109.134.120
+  - name: "@DeamNet_🇨🇦Toronto-1299-299"
+    type: vmess
+    server: lu1.gogogoo.cyou
+    port: 443
+    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: lu1.gogogoo.cyou
+    network: ws
+    ws-opts:
+      path: /go
+      headers:
+        Host: lu1.gogogoo.cyou
+  - name: "@DeamNet_🇩🇪Falkenstein-1300-300"
+    type: vmess
+    server: portfolio.progbyrazyar.ir
+    port: 443
+    uuid: cb283fa5-1719-47ee-937e-71b2bbf536ff
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /graphql
+      headers:
+        Host: portfolio.progbyrazyar.ir
+  - name: "@DeamNet_🇸🇬Singapore-1301-301"
+    type: vmess
+    server: vsg1.0bad.com
+    port: 443
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /chat
+      headers:
+        Host: vsg1.0bad.com
+  - name: "@DeamNet_🇸🇬Singapore-1302-302"
+    type: vmess
+    server: vsg1.0bad.com
+    port: 443
+    uuid: 927094d3-d678-4763-8591-e240d0bcae87
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: vsg1.0bad.com
+    network: ws
+    ws-opts:
+      path: /chat
+      headers:
+        Host: vsg1.0bad.com
+  - name: "@DeamNet_🇺🇸Hillsboro-1303-303"
+    type: vmess
+    server: us-lb.sshkit.org
+    port: 80
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /sshkit/Variu88/634dab7abadf1/
+      headers:
+        Host: us-lb.sshkit.org
+  - name: "@DeamNet_🇺🇸Hillsboro-1304-304"
+    type: vmess
+    server: us-lb.sshkit.org
+    port: 80
+    uuid: 6fea1649-425b-4092-bf53-29792152c925
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /sshkit/Variu88/634dab7abadf1/
+      headers:
+        Host: us-lb.sshkit.org
+  - name: "@DeamNet_🇺🇸Newark-1305-305"
+    type: vmess
+    server: sun.prxpro.cc
+    port: 80
+    uuid: 4ddd24d6-d901-5e5f-9a7c-080015c2e246
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: ws
+    ws-opts:
+      path: /d3906a4t52m9dxo1q39i
+      headers:
+        Host: sun.prxpro.cc
+  - name: "@DeamNet_🇺🇸Newark-1306-306"
+    type: vmess
+    server: lu1.gogogoo.cyou
+    port: 443
+    uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+    network: ws
+    ws-opts:
+      path: /go
+      headers:
+        Host: lu1.gogogoo.cyou
+  - name: "@DeamNet_🇨🇦Toronto-1307-307"
+    type: trojan
+    server: s23.mynameismahsa.info
+    port: 2053
+    password: "user"
+    udp: true
+    sni: s23.mynameismahsa.info
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: s23.mynameismahsa.info
+  - name: "@DeamNet_🇩🇪Frankfurt am Main-1308-308"
+    type: vmess
+    server: ch.configv2rey.tk
+    port: 48973
+    uuid: 74caa278-0f67-4131-b814-f80207b87778
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - ch.configv2rey.tk
+  - name: "@DeamNet_🇫🇮Helsinki-1309-309"
+    type: vmess
+    server: 95.216.216.98
+    port: 57049
+    uuid: 4f0df967-7603-4ad0-a02c-f0a280798823
+    alterId: 0
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 95.216.216.98
+  - name: "@DeamNet_🇰🇷Seoul-1310-310"
+    type: vmess
+    server: m4.40010010.xyz
+    port: 37121
+    uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+  - name: "@DeamNet_🇰🇷Seoul-1311-311"
+    type: vmess
+    server: m4.40010010.xyz
+    port: 37121
+    uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    skip-cert-verify: true
+    servername: 
+  - name: "@DeamNet_🇳🇱Amsterdam-1312-312"
+    type: vmess
+    server: 167.99.219.229
+    port: 4690
+    uuid: f2aebe3c-b077-4b7d-db9b-94d3faf2ea95
+    alterId: 1
+    cipher: auto
+    udp: true
+    network: http
+    http-opts:
+      method: "GET"
+      path:
+        - '/'
+      headers:
+       Host:
+         - 167.99.219.229
+  - name: "@DeamNet_🇦🇺Sydney-1313-313"
+    type: trojan
+    server: jgwxn4.gaox.ml
+    port: 443
+    password: "e8c1ab3c-89b3-4933-92df-682e6dce7819"
+    udp: true
+    sni: jgwxn4.gaox.ml
+    skip-cert-verify: true
+  - name: "@DeamNet_🇦🇺Sydney-1314-314"
+    type: trojan
+    server: jgwxn3.gaox.ml
+    port: 443
+    password: "cb43b7c2-b744-41c5-bcc2-fd7467b332cf"
+    udp: true
+    sni: jgwxn3.gaox.ml
+    skip-cert-verify: true
+  - name: "@DeamNet_🇩🇪Falkenstein-1315-315"
+    type: trojan
+    server: wearefryn.ir
+    port: 664
+    password: "l5IVGoJtT6"
+    udp: true
+    sni: wearefryn.ir
+    skip-cert-verify: true
+  - name: "@DeamNet_🇩🇪Nuremberg-1316-316"
+    type: trojan
+    server: aleph-tj015.thatfreeservicewhicheveryoneuse.uk
+    port: 443
+    password: "d76294c5-a31f-408d-ba0b-89880107cab5"
+    udp: true
+    sni: aleph-tj015.thatfreeservicewhicheveryoneuse.uk
+    skip-cert-verify: true
+  - name: "@DeamNet_🇮🇳Hyderabad-1317-317"
+    type: trojan
+    server: jgwhdlb3.gaox.ml
+    port: 443
+    password: "006baa3f-4bc3-4915-b60d-c8c5dae11a11"
+    udp: true
+    sni: jgwhdlb3.gaox.ml
+    skip-cert-verify: true
+  - name: "@DeamNet_🇮🇳Hyderabad-1318-318"
+    type: trojan
+    server: jgwhdlb1.gaox.ml
+    port: 443
+    password: "e05c749b-7c6b-41b8-9c71-9dcf685edf4a"
+    udp: true
+    sni: jgwhdlb1.gaox.ml
+    skip-cert-verify: true
+  - name: "@DeamNet_🇯🇵Osaka-1319-319"
+    type: trojan
+    server: jgwdb2.gaox.ml
+    port: 443
+    password: "c19d1432-8b3e-4818-8837-3d160cf65908"
+    udp: true
+    sni: jgwdb2.gaox.ml
+    skip-cert-verify: true
+  - name: "@DeamNet_🇯🇵Osaka-1320-320"
+    type: trojan
+    server: jgwdb3.gaox.ml
+    port: 443
+    password: "8d2d5953-d649-4034-94f2-72f2df2623da"
+    udp: true
+    sni: jgwdb3.gaox.ml
+    skip-cert-verify: true
+  - name: "@DeamNet_🇯🇵Osaka-1321-321"
+    type: trojan
+    server: jgwdb4.gaox.ml
+    port: 443
+    password: "d06a3f01-1ff0-4792-9b8e-a5a604bc74a2"
+    udp: true
+    sni: jgwdb4.gaox.ml
+    skip-cert-verify: true
+  - name: "@DeamNet_🇯🇵Osaka-1322-322"
+    type: trojan
+    server: jgwdb4.gaox.ml
+    port: 443
+    password: "d06a3f01-1ff0-4792-9b8e-a5a604bc74a2"
+    udp: true
+    sni: jgwdb4.gaox.ml
+    skip-cert-verify: true
+  - name: "@DeamNet_🇯🇵Tokyo-1323-323"
+    type: trojan
+    server: jgwdj4.gaox.ml
+    port: 443
+    password: "c09eb137-bf68-4658-84e0-102d94b74168"
+    udp: true
+    sni: jgwdj4.gaox.ml
+    skip-cert-verify: true
+  - name: "@DeamNet_🇰🇷Chuncheon-1324-324"
+    type: trojan
+    server: jgwcc1.gaox.ml
+    port: 443
+    password: "7118b5f4-0ea4-4c11-be7f-11471cb91e4a"
+    udp: true
+    sni: jgwcc1.gaox.ml
+    skip-cert-verify: true
+  - name: "@DeamNet_🇰🇷Chuncheon-1325-325"
+    type: trojan
+    server: jgwcc2.gaox.ml
+    port: 443
+    password: "9c822f05-cfdc-479a-9534-60f3d4127435"
+    udp: true
+    sni: jgwcc2.gaox.ml
+    skip-cert-verify: true
+  - name: "@DeamNet_🇰🇷Chuncheon-1326-326"
+    type: trojan
+    server: jgwcc3.gaox.ml
+    port: 443
+    password: "b291d129-ee55-4801-a9b8-b5316e5c37b7"
+    udp: true
+    sni: jgwcc3.gaox.ml
+    skip-cert-verify: true
+  - name: "@DeamNet_🇰🇷Seoul-1327-327"
+    type: trojan
+    server: jgw2.gaox.ml
+    port: 443
+    password: "f2117e99-9b6e-47fd-b0a9-634a0b15b998"
+    udp: true
+    sni: jgw2.gaox.ml
+    skip-cert-verify: true
+  - name: "@DeamNet_🇰🇷Seoul-1328-328"
+    type: trojan
+    server: jgw2.gaox.ml
+    port: 443
+    password: "f2117e99-9b6e-47fd-b0a9-634a0b15b998"
+    udp: true
+    sni: jgw2.gaox.ml
+    skip-cert-verify: true
+  - name: "@DeamNet_🇺🇸Phoenix-1329-329"
+    type: trojan
+    server: fhcarm2.gaox.ml
+    port: 443
+    password: "f39bd244-f5fe-415c-8b98-a1e5250bf178"
+    udp: true
+    sni: fhcarm2.gaox.ml
+    skip-cert-verify: true
+  - name: "@DeamNet_🇺🇸Phoenix-1330-330"
+    type: trojan
+    server: fhcamd2.gaox.ml
+    port: 443
+    password: "dbf9bf9c-2c3f-474a-8031-d4c00666a989"
+    udp: true
+    sni: fhcamd2.gaox.ml
+    skip-cert-verify: true
+  - name: "@DeamNet_🇺🇸Phoenix-1331-331"
+    type: trojan
+    server: fhcamd2.gaox.ml
+    port: 443
+    password: "dbf9bf9c-2c3f-474a-8031-d4c00666a989"
+    udp: true
+    sni: fhcamd2.gaox.ml
+    skip-cert-verify: true
+proxy-groups:
+  - name: "MANUAL_@DeamNet"
+    type: select
+    proxies:
+      - "AUTO_@DeamNet"
+      - "@DeamNet_🇮🇷Tehran-1001-1"
+      - "@DeamNet_🇨🇦Toronto-1002-2"
+      - "@DeamNet_🇧🇿Belmopan-1003-3"
+      - "@DeamNet_🇧🇿Belmopan-1004-4"
+      - "@DeamNet_🇧🇿Belmopan-1005-5"
+      - "@DeamNet_🇧🇿Belmopan-1006-6"
+      - "@DeamNet_🇨🇾Nicosia-1007-7"
+      - "@DeamNet_🇬🇧Southport-1008-8"
+      - "@DeamNet_🇧🇿Belmopan-1009-9"
+      - "@DeamNet_🇧🇿Belmopan-1010-10"
+      - "@DeamNet_🇧🇿Belmopan-1011-11"
+      - "@DeamNet_🇧🇿Belmopan-1012-12"
+      - "@DeamNet_🇨🇦Toronto-1013-13"
+      - "@DeamNet_🇨🇦Toronto-1014-14"
+      - "@DeamNet_🇨🇾Nicosia-1015-15"
+      - "@DeamNet_🇬🇧Southport-1016-16"
+      - "@DeamNet_🇨🇾Nicosia-1017-17"
+      - "@DeamNet_🇫🇷Paris-1018-18"
+      - "@DeamNet_🇧🇿Belmopan-1019-19"
+      - "@DeamNet_🇧🇿Belmopan-1020-20"
+      - "@DeamNet_🇨🇦Ottawa-1021-21"
+      - "@DeamNet_🇨🇦Ottawa-1022-22"
+      - "@DeamNet_🇨🇦Toronto-1023-23"
+      - "@DeamNet_🇫🇷Paris-1024-24"
+      - "@DeamNet_🇩🇪Falkenstein-1025-25"
+      - "@DeamNet_🇧🇿Belmopan-1026-26"
+      - "@DeamNet_🇺🇸Newark-1027-27"
+      - "@DeamNet_🇨🇦Toronto-1028-28"
+      - "@DeamNet_🇬🇧Southport-1029-29"
+      - "@DeamNet_🇺🇸Washington-1030-30"
+      - "@DeamNet_🇨🇦Ottawa-1031-31"
+      - "@DeamNet_🇫🇷Paris-1032-32"
+      - "@DeamNet_🇩🇪Nuremberg-1033-33"
+      - "@DeamNet_🇩🇪Frankfurt am Main-1034-34"
+      - "@DeamNet_🇩🇪Falkenstein-1035-35"
+      - "@DeamNet_🇨🇦Toronto-1036-36"
+      - "@DeamNet_🇮🇷Tehran-1037-37"
+      - "@DeamNet_🇨🇦Ottawa-1038-38"
+      - "@DeamNet_🇷🇺Moscow-1039-39"
+      - "@DeamNet_🇨🇦Ottawa-1040-40"
+      - "@DeamNet_🇨🇦Ottawa-1041-41"
+      - "@DeamNet_🇨🇦Toronto-1042-42"
+      - "@DeamNet_🇩🇪Nuremberg-1043-43"
+      - "@DeamNet_🇬🇧Southport-1044-44"
+      - "@DeamNet_🇺🇸Newark-1045-45"
+      - "@DeamNet_🇳🇱Amsterdam-1046-46"
+      - "@DeamNet_🇨🇦Toronto-1047-47"
+      - "@DeamNet_🇨🇷Pozos-1048-48"
+      - "@DeamNet_🇱🇺Luxembourg-1049-49"
+      - "@DeamNet_🇺🇸Newark-1050-50"
+      - "@DeamNet_🇺🇸Washington-1051-51"
+      - "@DeamNet_🇨🇦Ottawa-1052-52"
+      - "@DeamNet_🇨🇦Toronto-1053-53"
+      - "@DeamNet_🇺🇸Austin-1054-54"
+      - "@DeamNet_🇺🇸Jacksonville-1055-55"
+      - "@DeamNet_🇨🇦Ottawa-1056-56"
+      - "@DeamNet_🇺🇸Jacksonville-1057-57"
+      - "@DeamNet_🇪🇸Madrid-1058-58"
+      - "@DeamNet_🇺🇸Austin-1059-59"
+      - "@DeamNet_🇨🇦Toronto-1060-60"
+      - "@DeamNet_🇫🇷Paris-1061-61"
+      - "@DeamNet_🇺🇸Austin-1062-62"
+      - "@DeamNet_🇫🇷Roubaix-1063-63"
+      - "@DeamNet_🇺🇸Newark-1064-64"
+      - "@DeamNet_🇩🇪Nuremberg-1065-65"
+      - "@DeamNet_🇨🇷Pozos-1066-66"
+      - "@DeamNet_🇨🇾Nicosia-1067-67"
+      - "@DeamNet_🇺🇸Austin-1068-68"
+      - "@DeamNet_🇺🇸Jacksonville-1069-69"
+      - "@DeamNet_🇪🇸Madrid-1070-70"
+      - "@DeamNet_🇺🇸Austin-1071-71"
+      - "@DeamNet_🇺🇸Jacksonville-1072-72"
+      - "@DeamNet_🇺🇸Newark-1073-73"
+      - "@DeamNet_🇳🇱Amsterdam-1074-74"
+      - "@DeamNet_🇩🇪Nuremberg-1075-75"
+      - "@DeamNet_🇫🇮Helsinki-1076-76"
+      - "@DeamNet_🇧🇿Belmopan-1077-77"
+      - "@DeamNet_🇩🇪Nuremberg-1078-78"
+      - "@DeamNet_🇫🇷Strasbourg-1079-79"
+      - "@DeamNet_🇬🇧Southport-1080-80"
+      - "@DeamNet_🇬🇧Southport-1081-81"
+      - "@DeamNet_🇨🇦Toronto-1082-82"
+      - "@DeamNet_🇫🇮Helsinki-1083-83"
+      - "@DeamNet_🇳🇱Amsterdam-1084-84"
+      - "@DeamNet_🇨🇦Toronto-1085-85"
+      - "@DeamNet_🇵🇱Warsaw-1086-86"
+      - "@DeamNet_🇺🇸Jacksonville-1087-87"
+      - "@DeamNet_🇨🇷Pozos-1088-88"
+      - "@DeamNet_🇫🇮Helsinki-1089-89"
+      - "@DeamNet_🇫🇷Paris-1090-90"
+      - "@DeamNet_🇨🇦Toronto-1091-91"
+      - "@DeamNet_🇫🇮Helsinki-1092-92"
+      - "@DeamNet_🇨🇦Toronto-1093-93"
+      - "@DeamNet_🇩🇪Frankfurt am Main-1094-94"
+      - "@DeamNet_🇩🇪Frankfurt am Main-1095-95"
+      - "@DeamNet_🇫🇮Helsinki-1096-96"
+      - "@DeamNet_🇨🇦Toronto-1097-97"
+      - "@DeamNet_🇫🇷Paris-1098-98"
+      - "@DeamNet_🇩🇪Falkenstein-1099-99"
+      - "@DeamNet_🇩🇪Falkenstein-1100-100"
+      - "@DeamNet_🇩🇪Gunzenhausen-1101-101"
+      - "@DeamNet_🇩🇪Nuremberg-1102-102"
+      - "@DeamNet_🇩🇪Nuremberg-1103-103"
+      - "@DeamNet_🇩🇪Falkenstein-1104-104"
+      - "@DeamNet_🇨🇦Toronto-1105-105"
+      - "@DeamNet_🇨🇦Toronto-1106-106"
+      - "@DeamNet_🇩🇪Nuremberg-1107-107"
+      - "@DeamNet_🇳🇱Amsterdam-1108-108"
+      - "@DeamNet_🇧🇿Belmopan-1109-109"
+      - "@DeamNet_🇵🇱Warsaw-1110-110"
+      - "@DeamNet_🇫🇮Helsinki-1111-111"
+      - "@DeamNet_🇫🇷Roubaix-1112-112"
+      - "@DeamNet_🇬🇧Southport-1113-113"
+      - "@DeamNet_🇧🇿Belmopan-1114-114"
+      - "@DeamNet_🇨🇷Pozos-1115-115"
+      - "@DeamNet_🇫🇮Helsinki-1116-116"
+      - "@DeamNet_🇺🇸Newark-1117-117"
+      - "@DeamNet_🇺🇸Austin-1118-118"
+      - "@DeamNet_🇩🇪Nuremberg-1119-119"
+      - "@DeamNet_🇩🇪Falkenstein-1120-120"
+      - "@DeamNet_🇬🇧London-1121-121"
+      - "@DeamNet_🇫🇷Roubaix-1122-122"
+      - "@DeamNet_🇺🇸Austin-1123-123"
+      - "@DeamNet_🇩🇪Falkenstein-1124-124"
+      - "@DeamNet_🇨🇦Toronto-1125-125"
+      - "@DeamNet_🇳🇱Amsterdam-1126-126"
+      - "@DeamNet_🇬🇧London-1127-127"
+      - "@DeamNet_🇩🇪Nuremberg-1128-128"
+      - "@DeamNet_🇨🇦Toronto-1129-129"
+      - "@DeamNet_🇩🇪Limburg an der Lahn-1130-130"
+      - "@DeamNet_🇪🇸Madrid-1131-131"
+      - "@DeamNet_🇩🇪Falkenstein-1132-132"
+      - "@DeamNet_🇳🇱Amsterdam-1133-133"
+      - "@DeamNet_🇩🇪Nuremberg-1134-134"
+      - "@DeamNet_🇨🇦Toronto-1135-135"
+      - "@DeamNet_🇫🇮Helsinki-1136-136"
+      - "@DeamNet_🇫🇷Roubaix-1137-137"
+      - "@DeamNet_🇫🇷Strasbourg-1138-138"
+      - "@DeamNet_🇫🇮Helsinki-1139-139"
+      - "@DeamNet_🇫🇮Helsinki-1140-140"
+      - "@DeamNet_🇨🇷Pozos-1141-141"
+      - "@DeamNet_🇩🇪Frankfurt am Main-1142-142"
+      - "@DeamNet_🇩🇪Falkenstein-1143-143"
+      - "@DeamNet_🇩🇪Nuremberg-1144-144"
+      - "@DeamNet_🇩🇪Limburg an der Lahn-1145-145"
+      - "@DeamNet_🇫🇷Roubaix-1146-146"
+      - "@DeamNet_🇨🇦Toronto-1147-147"
+      - "@DeamNet_🇫🇮Helsinki-1148-148"
+      - "@DeamNet_🇫🇮Helsinki-1149-149"
+      - "@DeamNet_🇫🇮Helsinki-1150-150"
+      - "@DeamNet_🇫🇷Strasbourg-1151-151"
+      - "@DeamNet_🇩🇪Falkenstein-1152-152"
+      - "@DeamNet_🇫🇷Strasbourg-1153-153"
+      - "@DeamNet_🇩🇪Falkenstein-1154-154"
+      - "@DeamNet_🇬🇧City of London-1155-155"
+      - "@DeamNet_🇩🇪Limburg an der Lahn-1156-156"
+      - "@DeamNet_🇵🇱Warsaw-1157-157"
+      - "@DeamNet_🇺🇸Chicago-1158-158"
+      - "@DeamNet_🇨🇦Toronto-1159-159"
+      - "@DeamNet_🇵🇱Warsaw-1160-160"
+      - "@DeamNet_🇬🇧City of London-1161-161"
+      - "@DeamNet_🇬🇧City of London-1162-162"
+      - "@DeamNet_🇩🇪Limburg an der Lahn-1163-163"
+      - "@DeamNet_🇨🇦Toronto-1164-164"
+      - "@DeamNet_🇷🇺Zelenograd-1165-165"
+      - "@DeamNet_🇩🇪Limburg an der Lahn-1166-166"
+      - "@DeamNet_🇵🇱Warsaw-1167-167"
+      - "@DeamNet_🇨🇦Toronto-1168-168"
+      - "@DeamNet_🇺🇸Secaucus-1169-169"
+      - "@DeamNet_🇺🇸Secaucus-1170-170"
+      - "@DeamNet_🇺🇸Secaucus-1171-171"
+      - "@DeamNet_🇺🇸Chicago-1172-172"
+      - "@DeamNet_🇸🇦Jeddah-1173-173"
+      - "@DeamNet_🇬🇧Coventry-1174-174"
+      - "@DeamNet_🇨🇦Toronto-1175-175"
+      - "@DeamNet_🇺🇸Secaucus-1176-176"
+      - "@DeamNet_🇬🇧Coventry-1177-177"
+      - "@DeamNet_🇬🇧London-1178-178"
+      - "@DeamNet_🇩🇪Limburg an der Lahn-1179-179"
+      - "@DeamNet_🇨🇦Toronto-1180-180"
+      - "@DeamNet_🇰🇷Seoul-1181-181"
+      - "@DeamNet_🇬🇧London-1182-182"
+      - "@DeamNet_🇸🇬Singapore-1183-183"
+      - "@DeamNet_🇸🇬Singapore-1184-184"
+      - "@DeamNet_🇺🇸San Jose-1185-185"
+      - "@DeamNet_🇺🇸Fremont-1186-186"
+      - "@DeamNet_🇺🇸Chicago-1187-187"
+      - "@DeamNet_🇺🇸Portland-1188-188"
+      - "@DeamNet_🇺🇸Hillsboro-1189-189"
+      - "@DeamNet_🇸🇬Singapore-1190-190"
+      - "@DeamNet_🇸🇬Singapore-1191-191"
+      - "@DeamNet_🇸🇬Singapore-1192-192"
+      - "@DeamNet_🇺🇸Portland-1193-193"
+      - "@DeamNet_🇸🇬Singapore-1194-194"
+      - "@DeamNet_🇸🇬Singapore-1195-195"
+      - "@DeamNet_🇸🇬Singapore-1196-196"
+      - "@DeamNet_🇸🇬Singapore-1197-197"
+      - "@DeamNet_🇸🇬Singapore-1198-198"
+      - "@DeamNet_🇺🇸San Jose-1199-199"
+      - "@DeamNet_🇸🇬Singapore-1200-200"
+      - "@DeamNet_🇺🇸Los Angeles-1201-201"
+      - "@DeamNet_🇸🇬Singapore-1202-202"
+      - "@DeamNet_🇺🇸Portland-1203-203"
+      - "@DeamNet_🇺🇸Portland-1204-204"
+      - "@DeamNet_🇯🇵Tokyo-1205-205"
+      - "@DeamNet_🇸🇬Singapore-1206-206"
+      - "@DeamNet_🇺🇸Los Angeles-1207-207"
+      - "@DeamNet_🇺🇸San Jose-1208-208"
+      - "@DeamNet_🇯🇵Tokyo-1209-209"
+      - "@DeamNet_🇺🇸Hillsboro-1210-210"
+      - "@DeamNet_🇺🇸Los Angeles-1211-211"
+      - "@DeamNet_🇸🇬Singapore-1212-212"
+      - "@DeamNet_🇺🇸Hillsboro-1213-213"
+      - "@DeamNet_🇺🇸Phoenix-1214-214"
+      - "@DeamNet_🇦🇪Al Fujairah City-1215-215"
+      - "@DeamNet_🇺🇸Los Angeles-1216-216"
+      - "@DeamNet_🇺🇸Phoenix-1217-217"
+      - "@DeamNet_🇺🇸Chicago-1218-218"
+      - "@DeamNet_🇺🇸Los Angeles-1219-219"
+      - "@DeamNet_🇸🇬Singapore-1220-220"
+      - "@DeamNet_🇦🇪Al Fujairah City-1221-221"
+      - "@DeamNet_🇺🇸Los Angeles-1222-222"
+      - "@DeamNet_🇸🇬Singapore-1223-223"
+      - "@DeamNet_🇸🇬Singapore-1224-224"
+      - "@DeamNet_🇺🇸Phoenix-1225-225"
+      - "@DeamNet_🇸🇬Singapore-1226-226"
+      - "@DeamNet_🇺🇸Los Angeles-1227-227"
+      - "@DeamNet_🇯🇵Tokyo-1228-228"
+      - "@DeamNet_🇸🇬Singapore-1229-229"
+      - "@DeamNet_🇺🇸Phoenix-1230-230"
+      - "@DeamNet_🇯🇵Tokyo-1231-231"
+      - "@DeamNet_🇯🇵Tokyo-1232-232"
+      - "@DeamNet_🇺🇸Phoenix-1233-233"
+      - "@DeamNet_🇸🇬Singapore-1234-234"
+      - "@DeamNet_🇺🇸Hillsboro-1235-235"
+      - "@DeamNet_🇸🇬Singapore-1236-236"
+      - "@DeamNet_🇺🇸Hillsboro-1237-237"
+      - "@DeamNet_🇸🇬Singapore-1238-238"
+      - "@DeamNet_🇯🇵Tokyo-1239-239"
+      - "@DeamNet_🇸🇬Singapore-1240-240"
+      - "@DeamNet_🇸🇬Singapore-1241-241"
+      - "@DeamNet_🇸🇬Singapore-1242-242"
+      - "@DeamNet_🇸🇬Singapore-1243-243"
+      - "@DeamNet_🇭🇰Central-1244-244"
+      - "@DeamNet_🇺🇸Hillsboro-1245-245"
+      - "@DeamNet_🇭🇰Cheung Sha Wan-1246-246"
+      - "@DeamNet_🇭🇰Hong Kong-1247-247"
+      - "@DeamNet_🇰🇷Seoul-1248-248"
+      - "@DeamNet_🇸🇬Singapore-1249-249"
+      - "@DeamNet_🇭🇰Central-1250-250"
+      - "@DeamNet_🇭🇰Cheung Sha Wan-1251-251"
+      - "@DeamNet_🇭🇰Hong Kong-1252-252"
+      - "@DeamNet_🇭🇰Cheung Sha Wan-1253-253"
+      - "@DeamNet_🇭🇰Central-1254-254"
+      - "@DeamNet_🇺🇸Hillsboro-1255-255"
+      - "@DeamNet_🇺🇸Hillsboro-1256-256"
+      - "@DeamNet_🇰🇷Chuncheon-1257-257"
+      - "@DeamNet_🇭🇰Hong Kong-1258-258"
+      - "@DeamNet_🇭🇰Hong Kong-1259-259"
+      - "@DeamNet_🇲🇴Macao-1260-260"
+      - "@DeamNet_🇭🇰Hong Kong-1261-261"
+      - "@DeamNet_🇭🇰Central-1262-262"
+      - "@DeamNet_🇮🇳Hyderabad-1263-263"
+      - "@DeamNet_🇸🇬Singapore-1264-264"
+      - "@DeamNet_🇰🇷Chuncheon-1265-265"
+      - "@DeamNet_🇰🇷Chuncheon-1266-266"
+      - "@DeamNet_🇰🇷Chuncheon-1267-267"
+      - "@DeamNet_🇰🇷Seoul-1268-268"
+      - "@DeamNet_🇯🇵Tokyo-1269-269"
+      - "@DeamNet_🇸🇬Singapore-1270-270"
+      - "@DeamNet_🇰🇷Seoul-1271-271"
+      - "@DeamNet_🇯🇵Osaka-1272-272"
+      - "@DeamNet_🇯🇵Osaka-1273-273"
+      - "@DeamNet_🇦🇺Sydney-1274-274"
+      - "@DeamNet_🇯🇵Tokyo-1275-275"
+      - "@DeamNet_🇰🇷Chuncheon-1276-276"
+      - "@DeamNet_🇰🇷Seoul-1277-277"
+      - "@DeamNet_🇰🇷Chuncheon-1278-278"
+      - "@DeamNet_🇸🇬Singapore-1279-279"
+      - "@DeamNet_🇯🇵Osaka-1280-280"
+      - "@DeamNet_🇦🇺Sydney-1281-281"
+      - "@DeamNet_🇰🇷Chuncheon-1282-282"
+      - "@DeamNet_🇯🇵Osaka-1283-283"
+      - "@DeamNet_🇸🇬Singapore-1284-284"
+      - "@DeamNet_🇦🇺Sydney-1285-285"
+      - "@DeamNet_🇰🇷Seoul-1286-286"
+      - "@DeamNet_🇯🇵Osaka-1287-287"
+      - "@DeamNet_🇰🇷Seoul-1288-288"
+      - "@DeamNet_🇭🇰Hong Kong-1289-289"
+      - "@DeamNet_🇭🇺Budapest-1290-290"
+      - "@DeamNet_🇭🇺Budapest-1291-291"
+      - "@DeamNet_🇭🇺Budapest-1292-292"
+      - "@DeamNet_🇮🇳Bengaluru-1293-293"
+      - "@DeamNet_🇮🇳Hyderabad-1294-294"
+      - "@DeamNet_🇮🇳Hyderabad-1295-295"
+      - "@DeamNet_🇰🇷Seoul-1296-296"
+      - "@DeamNet_🇭🇺Budapest-1297-297"
+      - "@DeamNet_🇫🇮Helsinki-1298-298"
+      - "@DeamNet_🇨🇦Toronto-1299-299"
+      - "@DeamNet_🇩🇪Falkenstein-1300-300"
+      - "@DeamNet_🇸🇬Singapore-1301-301"
+      - "@DeamNet_🇸🇬Singapore-1302-302"
+      - "@DeamNet_🇺🇸Hillsboro-1303-303"
+      - "@DeamNet_🇺🇸Hillsboro-1304-304"
+      - "@DeamNet_🇺🇸Newark-1305-305"
+      - "@DeamNet_🇺🇸Newark-1306-306"
+      - "@DeamNet_🇨🇦Toronto-1307-307"
+      - "@DeamNet_🇩🇪Frankfurt am Main-1308-308"
+      - "@DeamNet_🇫🇮Helsinki-1309-309"
+      - "@DeamNet_🇰🇷Seoul-1310-310"
+      - "@DeamNet_🇰🇷Seoul-1311-311"
+      - "@DeamNet_🇳🇱Amsterdam-1312-312"
+      - "@DeamNet_🇦🇺Sydney-1313-313"
+      - "@DeamNet_🇦🇺Sydney-1314-314"
+      - "@DeamNet_🇩🇪Falkenstein-1315-315"
+      - "@DeamNet_🇩🇪Nuremberg-1316-316"
+      - "@DeamNet_🇮🇳Hyderabad-1317-317"
+      - "@DeamNet_🇮🇳Hyderabad-1318-318"
+      - "@DeamNet_🇯🇵Osaka-1319-319"
+      - "@DeamNet_🇯🇵Osaka-1320-320"
+      - "@DeamNet_🇯🇵Osaka-1321-321"
+      - "@DeamNet_🇯🇵Osaka-1322-322"
+      - "@DeamNet_🇯🇵Tokyo-1323-323"
+      - "@DeamNet_🇰🇷Chuncheon-1324-324"
+      - "@DeamNet_🇰🇷Chuncheon-1325-325"
+      - "@DeamNet_🇰🇷Chuncheon-1326-326"
+      - "@DeamNet_🇰🇷Seoul-1327-327"
+      - "@DeamNet_🇰🇷Seoul-1328-328"
+      - "@DeamNet_🇺🇸Phoenix-1329-329"
+      - "@DeamNet_🇺🇸Phoenix-1330-330"
+      - "@DeamNet_🇺🇸Phoenix-1331-331"
+  - name: "AUTO_@DeamNet"
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - "@DeamNet_🇮🇷Tehran-1001-1"
+      - "@DeamNet_🇨🇦Toronto-1002-2"
+      - "@DeamNet_🇧🇿Belmopan-1003-3"
+      - "@DeamNet_🇧🇿Belmopan-1004-4"
+      - "@DeamNet_🇧🇿Belmopan-1005-5"
+      - "@DeamNet_🇧🇿Belmopan-1006-6"
+      - "@DeamNet_🇨🇾Nicosia-1007-7"
+      - "@DeamNet_🇬🇧Southport-1008-8"
+      - "@DeamNet_🇧🇿Belmopan-1009-9"
+      - "@DeamNet_🇧🇿Belmopan-1010-10"
+      - "@DeamNet_🇧🇿Belmopan-1011-11"
+      - "@DeamNet_🇧🇿Belmopan-1012-12"
+      - "@DeamNet_🇨🇦Toronto-1013-13"
+      - "@DeamNet_🇨🇦Toronto-1014-14"
+      - "@DeamNet_🇨🇾Nicosia-1015-15"
+      - "@DeamNet_🇬🇧Southport-1016-16"
+      - "@DeamNet_🇨🇾Nicosia-1017-17"
+      - "@DeamNet_🇫🇷Paris-1018-18"
+      - "@DeamNet_🇧🇿Belmopan-1019-19"
+      - "@DeamNet_🇧🇿Belmopan-1020-20"
+      - "@DeamNet_🇨🇦Ottawa-1021-21"
+      - "@DeamNet_🇨🇦Ottawa-1022-22"
+      - "@DeamNet_🇨🇦Toronto-1023-23"
+      - "@DeamNet_🇫🇷Paris-1024-24"
+      - "@DeamNet_🇩🇪Falkenstein-1025-25"
+      - "@DeamNet_🇧🇿Belmopan-1026-26"
+      - "@DeamNet_🇺🇸Newark-1027-27"
+      - "@DeamNet_🇨🇦Toronto-1028-28"
+      - "@DeamNet_🇬🇧Southport-1029-29"
+      - "@DeamNet_🇺🇸Washington-1030-30"
+      - "@DeamNet_🇨🇦Ottawa-1031-31"
+      - "@DeamNet_🇫🇷Paris-1032-32"
+      - "@DeamNet_🇩🇪Nuremberg-1033-33"
+      - "@DeamNet_🇩🇪Frankfurt am Main-1034-34"
+      - "@DeamNet_🇩🇪Falkenstein-1035-35"
+      - "@DeamNet_🇨🇦Toronto-1036-36"
+      - "@DeamNet_🇮🇷Tehran-1037-37"
+      - "@DeamNet_🇨🇦Ottawa-1038-38"
+      - "@DeamNet_🇷🇺Moscow-1039-39"
+      - "@DeamNet_🇨🇦Ottawa-1040-40"
+      - "@DeamNet_🇨🇦Ottawa-1041-41"
+      - "@DeamNet_🇨🇦Toronto-1042-42"
+      - "@DeamNet_🇩🇪Nuremberg-1043-43"
+      - "@DeamNet_🇬🇧Southport-1044-44"
+      - "@DeamNet_🇺🇸Newark-1045-45"
+      - "@DeamNet_🇳🇱Amsterdam-1046-46"
+      - "@DeamNet_🇨🇦Toronto-1047-47"
+      - "@DeamNet_🇨🇷Pozos-1048-48"
+      - "@DeamNet_🇱🇺Luxembourg-1049-49"
+      - "@DeamNet_🇺🇸Newark-1050-50"
+      - "@DeamNet_🇺🇸Washington-1051-51"
+      - "@DeamNet_🇨🇦Ottawa-1052-52"
+      - "@DeamNet_🇨🇦Toronto-1053-53"
+      - "@DeamNet_🇺🇸Austin-1054-54"
+      - "@DeamNet_🇺🇸Jacksonville-1055-55"
+      - "@DeamNet_🇨🇦Ottawa-1056-56"
+      - "@DeamNet_🇺🇸Jacksonville-1057-57"
+      - "@DeamNet_🇪🇸Madrid-1058-58"
+      - "@DeamNet_🇺🇸Austin-1059-59"
+      - "@DeamNet_🇨🇦Toronto-1060-60"
+      - "@DeamNet_🇫🇷Paris-1061-61"
+      - "@DeamNet_🇺🇸Austin-1062-62"
+      - "@DeamNet_🇫🇷Roubaix-1063-63"
+      - "@DeamNet_🇺🇸Newark-1064-64"
+      - "@DeamNet_🇩🇪Nuremberg-1065-65"
+      - "@DeamNet_🇨🇷Pozos-1066-66"
+      - "@DeamNet_🇨🇾Nicosia-1067-67"
+      - "@DeamNet_🇺🇸Austin-1068-68"
+      - "@DeamNet_🇺🇸Jacksonville-1069-69"
+      - "@DeamNet_🇪🇸Madrid-1070-70"
+      - "@DeamNet_🇺🇸Austin-1071-71"
+      - "@DeamNet_🇺🇸Jacksonville-1072-72"
+      - "@DeamNet_🇺🇸Newark-1073-73"
+      - "@DeamNet_🇳🇱Amsterdam-1074-74"
+      - "@DeamNet_🇩🇪Nuremberg-1075-75"
+      - "@DeamNet_🇫🇮Helsinki-1076-76"
+      - "@DeamNet_🇧🇿Belmopan-1077-77"
+      - "@DeamNet_🇩🇪Nuremberg-1078-78"
+      - "@DeamNet_🇫🇷Strasbourg-1079-79"
+      - "@DeamNet_🇬🇧Southport-1080-80"
+      - "@DeamNet_🇬🇧Southport-1081-81"
+      - "@DeamNet_🇨🇦Toronto-1082-82"
+      - "@DeamNet_🇫🇮Helsinki-1083-83"
+      - "@DeamNet_🇳🇱Amsterdam-1084-84"
+      - "@DeamNet_🇨🇦Toronto-1085-85"
+      - "@DeamNet_🇵🇱Warsaw-1086-86"
+      - "@DeamNet_🇺🇸Jacksonville-1087-87"
+      - "@DeamNet_🇨🇷Pozos-1088-88"
+      - "@DeamNet_🇫🇮Helsinki-1089-89"
+      - "@DeamNet_🇫🇷Paris-1090-90"
+      - "@DeamNet_🇨🇦Toronto-1091-91"
+      - "@DeamNet_🇫🇮Helsinki-1092-92"
+      - "@DeamNet_🇨🇦Toronto-1093-93"
+      - "@DeamNet_🇩🇪Frankfurt am Main-1094-94"
+      - "@DeamNet_🇩🇪Frankfurt am Main-1095-95"
+      - "@DeamNet_🇫🇮Helsinki-1096-96"
+      - "@DeamNet_🇨🇦Toronto-1097-97"
+      - "@DeamNet_🇫🇷Paris-1098-98"
+      - "@DeamNet_🇩🇪Falkenstein-1099-99"
+      - "@DeamNet_🇩🇪Falkenstein-1100-100"
+      - "@DeamNet_🇩🇪Gunzenhausen-1101-101"
+      - "@DeamNet_🇩🇪Nuremberg-1102-102"
+      - "@DeamNet_🇩🇪Nuremberg-1103-103"
+      - "@DeamNet_🇩🇪Falkenstein-1104-104"
+      - "@DeamNet_🇨🇦Toronto-1105-105"
+      - "@DeamNet_🇨🇦Toronto-1106-106"
+      - "@DeamNet_🇩🇪Nuremberg-1107-107"
+      - "@DeamNet_🇳🇱Amsterdam-1108-108"
+      - "@DeamNet_🇧🇿Belmopan-1109-109"
+      - "@DeamNet_🇵🇱Warsaw-1110-110"
+      - "@DeamNet_🇫🇮Helsinki-1111-111"
+      - "@DeamNet_🇫🇷Roubaix-1112-112"
+      - "@DeamNet_🇬🇧Southport-1113-113"
+      - "@DeamNet_🇧🇿Belmopan-1114-114"
+      - "@DeamNet_🇨🇷Pozos-1115-115"
+      - "@DeamNet_🇫🇮Helsinki-1116-116"
+      - "@DeamNet_🇺🇸Newark-1117-117"
+      - "@DeamNet_🇺🇸Austin-1118-118"
+      - "@DeamNet_🇩🇪Nuremberg-1119-119"
+      - "@DeamNet_🇩🇪Falkenstein-1120-120"
+      - "@DeamNet_🇬🇧London-1121-121"
+      - "@DeamNet_🇫🇷Roubaix-1122-122"
+      - "@DeamNet_🇺🇸Austin-1123-123"
+      - "@DeamNet_🇩🇪Falkenstein-1124-124"
+      - "@DeamNet_🇨🇦Toronto-1125-125"
+      - "@DeamNet_🇳🇱Amsterdam-1126-126"
+      - "@DeamNet_🇬🇧London-1127-127"
+      - "@DeamNet_🇩🇪Nuremberg-1128-128"
+      - "@DeamNet_🇨🇦Toronto-1129-129"
+      - "@DeamNet_🇩🇪Limburg an der Lahn-1130-130"
+      - "@DeamNet_🇪🇸Madrid-1131-131"
+      - "@DeamNet_🇩🇪Falkenstein-1132-132"
+      - "@DeamNet_🇳🇱Amsterdam-1133-133"
+      - "@DeamNet_🇩🇪Nuremberg-1134-134"
+      - "@DeamNet_🇨🇦Toronto-1135-135"
+      - "@DeamNet_🇫🇮Helsinki-1136-136"
+      - "@DeamNet_🇫🇷Roubaix-1137-137"
+      - "@DeamNet_🇫🇷Strasbourg-1138-138"
+      - "@DeamNet_🇫🇮Helsinki-1139-139"
+      - "@DeamNet_🇫🇮Helsinki-1140-140"
+      - "@DeamNet_🇨🇷Pozos-1141-141"
+      - "@DeamNet_🇩🇪Frankfurt am Main-1142-142"
+      - "@DeamNet_🇩🇪Falkenstein-1143-143"
+      - "@DeamNet_🇩🇪Nuremberg-1144-144"
+      - "@DeamNet_🇩🇪Limburg an der Lahn-1145-145"
+      - "@DeamNet_🇫🇷Roubaix-1146-146"
+      - "@DeamNet_🇨🇦Toronto-1147-147"
+      - "@DeamNet_🇫🇮Helsinki-1148-148"
+      - "@DeamNet_🇫🇮Helsinki-1149-149"
+      - "@DeamNet_🇫🇮Helsinki-1150-150"
+      - "@DeamNet_🇫🇷Strasbourg-1151-151"
+      - "@DeamNet_🇩🇪Falkenstein-1152-152"
+      - "@DeamNet_🇫🇷Strasbourg-1153-153"
+      - "@DeamNet_🇩🇪Falkenstein-1154-154"
+      - "@DeamNet_🇬🇧City of London-1155-155"
+      - "@DeamNet_🇩🇪Limburg an der Lahn-1156-156"
+      - "@DeamNet_🇵🇱Warsaw-1157-157"
+      - "@DeamNet_🇺🇸Chicago-1158-158"
+      - "@DeamNet_🇨🇦Toronto-1159-159"
+      - "@DeamNet_🇵🇱Warsaw-1160-160"
+      - "@DeamNet_🇬🇧City of London-1161-161"
+      - "@DeamNet_🇬🇧City of London-1162-162"
+      - "@DeamNet_🇩🇪Limburg an der Lahn-1163-163"
+      - "@DeamNet_🇨🇦Toronto-1164-164"
+      - "@DeamNet_🇷🇺Zelenograd-1165-165"
+      - "@DeamNet_🇩🇪Limburg an der Lahn-1166-166"
+      - "@DeamNet_🇵🇱Warsaw-1167-167"
+      - "@DeamNet_🇨🇦Toronto-1168-168"
+      - "@DeamNet_🇺🇸Secaucus-1169-169"
+      - "@DeamNet_🇺🇸Secaucus-1170-170"
+      - "@DeamNet_🇺🇸Secaucus-1171-171"
+      - "@DeamNet_🇺🇸Chicago-1172-172"
+      - "@DeamNet_🇸🇦Jeddah-1173-173"
+      - "@DeamNet_🇬🇧Coventry-1174-174"
+      - "@DeamNet_🇨🇦Toronto-1175-175"
+      - "@DeamNet_🇺🇸Secaucus-1176-176"
+      - "@DeamNet_🇬🇧Coventry-1177-177"
+      - "@DeamNet_🇬🇧London-1178-178"
+      - "@DeamNet_🇩🇪Limburg an der Lahn-1179-179"
+      - "@DeamNet_🇨🇦Toronto-1180-180"
+      - "@DeamNet_🇰🇷Seoul-1181-181"
+      - "@DeamNet_🇬🇧London-1182-182"
+      - "@DeamNet_🇸🇬Singapore-1183-183"
+      - "@DeamNet_🇸🇬Singapore-1184-184"
+      - "@DeamNet_🇺🇸San Jose-1185-185"
+      - "@DeamNet_🇺🇸Fremont-1186-186"
+      - "@DeamNet_🇺🇸Chicago-1187-187"
+      - "@DeamNet_🇺🇸Portland-1188-188"
+      - "@DeamNet_🇺🇸Hillsboro-1189-189"
+      - "@DeamNet_🇸🇬Singapore-1190-190"
+      - "@DeamNet_🇸🇬Singapore-1191-191"
+      - "@DeamNet_🇸🇬Singapore-1192-192"
+      - "@DeamNet_🇺🇸Portland-1193-193"
+      - "@DeamNet_🇸🇬Singapore-1194-194"
+      - "@DeamNet_🇸🇬Singapore-1195-195"
+      - "@DeamNet_🇸🇬Singapore-1196-196"
+      - "@DeamNet_🇸🇬Singapore-1197-197"
+      - "@DeamNet_🇸🇬Singapore-1198-198"
+      - "@DeamNet_🇺🇸San Jose-1199-199"
+      - "@DeamNet_🇸🇬Singapore-1200-200"
+      - "@DeamNet_🇺🇸Los Angeles-1201-201"
+      - "@DeamNet_🇸🇬Singapore-1202-202"
+      - "@DeamNet_🇺🇸Portland-1203-203"
+      - "@DeamNet_🇺🇸Portland-1204-204"
+      - "@DeamNet_🇯🇵Tokyo-1205-205"
+      - "@DeamNet_🇸🇬Singapore-1206-206"
+      - "@DeamNet_🇺🇸Los Angeles-1207-207"
+      - "@DeamNet_🇺🇸San Jose-1208-208"
+      - "@DeamNet_🇯🇵Tokyo-1209-209"
+      - "@DeamNet_🇺🇸Hillsboro-1210-210"
+      - "@DeamNet_🇺🇸Los Angeles-1211-211"
+      - "@DeamNet_🇸🇬Singapore-1212-212"
+      - "@DeamNet_🇺🇸Hillsboro-1213-213"
+      - "@DeamNet_🇺🇸Phoenix-1214-214"
+      - "@DeamNet_🇦🇪Al Fujairah City-1215-215"
+      - "@DeamNet_🇺🇸Los Angeles-1216-216"
+      - "@DeamNet_🇺🇸Phoenix-1217-217"
+      - "@DeamNet_🇺🇸Chicago-1218-218"
+      - "@DeamNet_🇺🇸Los Angeles-1219-219"
+      - "@DeamNet_🇸🇬Singapore-1220-220"
+      - "@DeamNet_🇦🇪Al Fujairah City-1221-221"
+      - "@DeamNet_🇺🇸Los Angeles-1222-222"
+      - "@DeamNet_🇸🇬Singapore-1223-223"
+      - "@DeamNet_🇸🇬Singapore-1224-224"
+      - "@DeamNet_🇺🇸Phoenix-1225-225"
+      - "@DeamNet_🇸🇬Singapore-1226-226"
+      - "@DeamNet_🇺🇸Los Angeles-1227-227"
+      - "@DeamNet_🇯🇵Tokyo-1228-228"
+      - "@DeamNet_🇸🇬Singapore-1229-229"
+      - "@DeamNet_🇺🇸Phoenix-1230-230"
+      - "@DeamNet_🇯🇵Tokyo-1231-231"
+      - "@DeamNet_🇯🇵Tokyo-1232-232"
+      - "@DeamNet_🇺🇸Phoenix-1233-233"
+      - "@DeamNet_🇸🇬Singapore-1234-234"
+      - "@DeamNet_🇺🇸Hillsboro-1235-235"
+      - "@DeamNet_🇸🇬Singapore-1236-236"
+      - "@DeamNet_🇺🇸Hillsboro-1237-237"
+      - "@DeamNet_🇸🇬Singapore-1238-238"
+      - "@DeamNet_🇯🇵Tokyo-1239-239"
+      - "@DeamNet_🇸🇬Singapore-1240-240"
+      - "@DeamNet_🇸🇬Singapore-1241-241"
+      - "@DeamNet_🇸🇬Singapore-1242-242"
+      - "@DeamNet_🇸🇬Singapore-1243-243"
+      - "@DeamNet_🇭🇰Central-1244-244"
+      - "@DeamNet_🇺🇸Hillsboro-1245-245"
+      - "@DeamNet_🇭🇰Cheung Sha Wan-1246-246"
+      - "@DeamNet_🇭🇰Hong Kong-1247-247"
+      - "@DeamNet_🇰🇷Seoul-1248-248"
+      - "@DeamNet_🇸🇬Singapore-1249-249"
+      - "@DeamNet_🇭🇰Central-1250-250"
+      - "@DeamNet_🇭🇰Cheung Sha Wan-1251-251"
+      - "@DeamNet_🇭🇰Hong Kong-1252-252"
+      - "@DeamNet_🇭🇰Cheung Sha Wan-1253-253"
+      - "@DeamNet_🇭🇰Central-1254-254"
+      - "@DeamNet_🇺🇸Hillsboro-1255-255"
+      - "@DeamNet_🇺🇸Hillsboro-1256-256"
+      - "@DeamNet_🇰🇷Chuncheon-1257-257"
+      - "@DeamNet_🇭🇰Hong Kong-1258-258"
+      - "@DeamNet_🇭🇰Hong Kong-1259-259"
+      - "@DeamNet_🇲🇴Macao-1260-260"
+      - "@DeamNet_🇭🇰Hong Kong-1261-261"
+      - "@DeamNet_🇭🇰Central-1262-262"
+      - "@DeamNet_🇮🇳Hyderabad-1263-263"
+      - "@DeamNet_🇸🇬Singapore-1264-264"
+      - "@DeamNet_🇰🇷Chuncheon-1265-265"
+      - "@DeamNet_🇰🇷Chuncheon-1266-266"
+      - "@DeamNet_🇰🇷Chuncheon-1267-267"
+      - "@DeamNet_🇰🇷Seoul-1268-268"
+      - "@DeamNet_🇯🇵Tokyo-1269-269"
+      - "@DeamNet_🇸🇬Singapore-1270-270"
+      - "@DeamNet_🇰🇷Seoul-1271-271"
+      - "@DeamNet_🇯🇵Osaka-1272-272"
+      - "@DeamNet_🇯🇵Osaka-1273-273"
+      - "@DeamNet_🇦🇺Sydney-1274-274"
+      - "@DeamNet_🇯🇵Tokyo-1275-275"
+      - "@DeamNet_🇰🇷Chuncheon-1276-276"
+      - "@DeamNet_🇰🇷Seoul-1277-277"
+      - "@DeamNet_🇰🇷Chuncheon-1278-278"
+      - "@DeamNet_🇸🇬Singapore-1279-279"
+      - "@DeamNet_🇯🇵Osaka-1280-280"
+      - "@DeamNet_🇦🇺Sydney-1281-281"
+      - "@DeamNet_🇰🇷Chuncheon-1282-282"
+      - "@DeamNet_🇯🇵Osaka-1283-283"
+      - "@DeamNet_🇸🇬Singapore-1284-284"
+      - "@DeamNet_🇦🇺Sydney-1285-285"
+      - "@DeamNet_🇰🇷Seoul-1286-286"
+      - "@DeamNet_🇯🇵Osaka-1287-287"
+      - "@DeamNet_🇰🇷Seoul-1288-288"
+      - "@DeamNet_🇭🇰Hong Kong-1289-289"
+      - "@DeamNet_🇭🇺Budapest-1290-290"
+      - "@DeamNet_🇭🇺Budapest-1291-291"
+      - "@DeamNet_🇭🇺Budapest-1292-292"
+      - "@DeamNet_🇮🇳Bengaluru-1293-293"
+      - "@DeamNet_🇮🇳Hyderabad-1294-294"
+      - "@DeamNet_🇮🇳Hyderabad-1295-295"
+      - "@DeamNet_🇰🇷Seoul-1296-296"
+      - "@DeamNet_🇭🇺Budapest-1297-297"
+      - "@DeamNet_🇫🇮Helsinki-1298-298"
+      - "@DeamNet_🇨🇦Toronto-1299-299"
+      - "@DeamNet_🇩🇪Falkenstein-1300-300"
+      - "@DeamNet_🇸🇬Singapore-1301-301"
+      - "@DeamNet_🇸🇬Singapore-1302-302"
+      - "@DeamNet_🇺🇸Hillsboro-1303-303"
+      - "@DeamNet_🇺🇸Hillsboro-1304-304"
+      - "@DeamNet_🇺🇸Newark-1305-305"
+      - "@DeamNet_🇺🇸Newark-1306-306"
+      - "@DeamNet_🇨🇦Toronto-1307-307"
+      - "@DeamNet_🇩🇪Frankfurt am Main-1308-308"
+      - "@DeamNet_🇫🇮Helsinki-1309-309"
+      - "@DeamNet_🇰🇷Seoul-1310-310"
+      - "@DeamNet_🇰🇷Seoul-1311-311"
+      - "@DeamNet_🇳🇱Amsterdam-1312-312"
+      - "@DeamNet_🇦🇺Sydney-1313-313"
+      - "@DeamNet_🇦🇺Sydney-1314-314"
+      - "@DeamNet_🇩🇪Falkenstein-1315-315"
+      - "@DeamNet_🇩🇪Nuremberg-1316-316"
+      - "@DeamNet_🇮🇳Hyderabad-1317-317"
+      - "@DeamNet_🇮🇳Hyderabad-1318-318"
+      - "@DeamNet_🇯🇵Osaka-1319-319"
+      - "@DeamNet_🇯🇵Osaka-1320-320"
+      - "@DeamNet_🇯🇵Osaka-1321-321"
+      - "@DeamNet_🇯🇵Osaka-1322-322"
+      - "@DeamNet_🇯🇵Tokyo-1323-323"
+      - "@DeamNet_🇰🇷Chuncheon-1324-324"
+      - "@DeamNet_🇰🇷Chuncheon-1325-325"
+      - "@DeamNet_🇰🇷Chuncheon-1326-326"
+      - "@DeamNet_🇰🇷Seoul-1327-327"
+      - "@DeamNet_🇰🇷Seoul-1328-328"
+      - "@DeamNet_🇺🇸Phoenix-1329-329"
+      - "@DeamNet_🇺🇸Phoenix-1330-330"
+      - "@DeamNet_🇺🇸Phoenix-1331-331"
+rules:
+ - MATCH,MANUAL_@DeamNet,AUTO_@DeamNet
