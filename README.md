@@ -35,8 +35,8 @@
 <h5 align='left'>Others</h5>
 <details>
 <summary>azadnet</summary>
-http://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet.yml
-<a href="https://github.com/AzadNetCH">AzadNetCH</a>
+<a href="https://github.com/AzadNetCH">AzadNetCH</a> <code>http://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet.yml</code>
+
 </details>
 
 ---
