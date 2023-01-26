@@ -1,9 +1,9 @@
 #
 #-------------------------------------------------------------#
 #  创建者：https://v2rayse.com
-#  创建时间：2022-12-16 22:24:20
+#  创建时间：2023-01-26 16:30:47
 #  模版：v2rayse默认模版
-#  节点数量：32
+#  节点数量：10
 #-------------------------------------------------------------#
 #
 port: 7890
@@ -13,263 +13,109 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"vmess","name":"207.154.252.219","ws-opts":{"path":"/","headers":{"host":"8.mustangtehran.cfd"}},"server":"off.bahbahchehavayi.ml","port":"80","uuid":"81c6f152-0328-4add-bd05-4116974a765b","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"164.92.133.21","ws-opts":{"path":"/","headers":{"host":"5.tehranrank.cfd"}},"server":"off.bahbahchehavayi.ml","port":"80","uuid":"a4c274b3-0af2-4f27-e82d-a6f5326b6ba6","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"178.128.196.164","ws-opts":{"path":"/","headers":{"host":"4.mustangtehran.cfd"}},"server":"off.bahbahchehavayi.ml","port":"80","uuid":"1fb655a9-2c2e-42be-c2fd-3e5359d84a0a","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"104.248.137.112_1","ws-opts":{"path":"/","headers":{"host":"20.tehranrank.cfd"}},"server":"176.65.192.202","port":"80","uuid":"22f9c24c-bbbc-40f3-ab86-74f943479063","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"138.197.177.158","ws-opts":{"path":"/","headers":{"host":"3.tehranrank.cfd"}},"server":"off.bahbahchehavayi.ml","port":"80","uuid":"7894bc69-c030-4bf4-bd29-b794f49e12a6","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"49.12.75.213","ws-opts":{"path":"/","headers":{"host":"2.tehranrank.cfd"}},"server":"off.bahbahchehavayi.ml","port":"80","uuid":"19263144-1689-46a9-d33f-4f8e562231f0","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"104.248.137.112_2","ws-opts":{"path":"/","headers":{"host":"20.tehranrank.cfd"}},"server":"off.bahbahchehavayi.ml","port":"80","uuid":"22f9c24c-bbbc-40f3-ab86-74f943479063","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"165.232.116.131","ws-opts":{"path":"/","headers":{"host":"7.mustangtehran.cfd"}},"server":"off.bahbahchehavayi.ml","port":"8080","uuid":"f6e61ac9-c5cf-46f4-e4d1-bf1297f9628c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"49.12.214.6","ws-opts":{"path":"/","headers":{"host":"1.tehranrank.cfd"}},"server":"off.bahbahchehavayi.ml","port":"80","uuid":"abf30c41-21b4-42b1-80ff-885113a795f7","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"161.35.25.144","ws-opts":{"path":"/","headers":{"host":"2.mustangtehran.cfd"}},"server":"off.bahbahchehavayi.ml","port":"8080","uuid":"14dd0ab1-a470-466f-dc3e-4c0b308ff5c2","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"104.248.137.249","ws-opts":{"path":"/","headers":{"host":"12.moknetfree.ml"}},"server":"12.moknetfree.ml","port":"80","uuid":"4585277c-21d8-402a-ccc6-607ff403354c","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"165.232.116.88","ws-opts":{"path":"/","headers":{"host":"1.mustangtehran.cfd"}},"server":"off.bahbahchehavayi.ml","port":"80","uuid":"ab8c56ab-9c42-48c4-eaf1-4de23f6c33ae","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"64.225.22.40","ws-opts":{"path":"/","headers":{"host":"11.tehranrank.cfd"}},"server":"off.bahbahchehavayi.ml","port":"80","uuid":"a3dd43c6-7ea8-4825-a35c-c03fc24c3fcb","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"138.201.154.193","ws-opts":{"path":"/","headers":{"host":"6.mustangtehran.cfd"}},"server":"off.bahbahchehavayi.ml","port":"8080","uuid":"dd4e1983-8ac2-4953-9e64-960d1ed1af47","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"165.227.166.124","ws-opts":{"path":"/","headers":{"host":"4.tehranrank.cfd"}},"server":"off.bahbahchehavayi.ml","port":"80","uuid":"3a27801a-15c6-4afa-fd58-63070f51c3ed","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"207.154.194.68","ws-opts":{"path":"/","headers":{"host":"3.mustangtehran.cfd"}},"server":"off.bahbahchehavayi.ml","port":"8880","uuid":"3e4346f1-4623-4332-da96-391bc618e8e1","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"207.154.252.219D","ws-opts":{"path":"/"},"server":"207.154.252.219","port":80,"uuid":"81c6f152-0328-4add-bd05-4116974a765b","alterId":32,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"164.92.133.21D","ws-opts":{"path":"/"},"server":"164.92.133.21","port":80,"uuid":"a4c274b3-0af2-4f27-e82d-a6f5326b6ba6","alterId":32,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"178.128.196.164D","ws-opts":{"path":"/"},"server":"178.128.196.164","port":80,"uuid":"1fb655a9-2c2e-42be-c2fd-3e5359d84a0a","alterId":32,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"104.248.137.112D_1","ws-opts":{"path":"/"},"server":"176.65.192.202","port":80,"uuid":"22f9c24c-bbbc-40f3-ab86-74f943479063","alterId":32,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"138.197.177.158D","ws-opts":{"path":"/"},"server":"138.197.177.158","port":80,"uuid":"7894bc69-c030-4bf4-bd29-b794f49e12a6","alterId":32,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"49.12.75.213D","ws-opts":{"path":"/"},"server":"49.12.75.213","port":80,"uuid":"19263144-1689-46a9-d33f-4f8e562231f0","alterId":32,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"104.248.137.112D_2","ws-opts":{"path":"/"},"server":"104.248.137.112","port":80,"uuid":"22f9c24c-bbbc-40f3-ab86-74f943479063","alterId":32,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"165.232.116.131D","ws-opts":{"path":"/"},"server":"165.232.116.131","port":8080,"uuid":"f6e61ac9-c5cf-46f4-e4d1-bf1297f9628c","alterId":32,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"49.12.214.6D","ws-opts":{"path":"/"},"server":"49.12.214.6","port":80,"uuid":"abf30c41-21b4-42b1-80ff-885113a795f7","alterId":32,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"161.35.25.144D","ws-opts":{"path":"/"},"server":"161.35.25.144","port":8080,"uuid":"14dd0ab1-a470-466f-dc3e-4c0b308ff5c2","alterId":32,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"104.248.137.249D","ws-opts":{"path":"/"},"server":"104.248.137.249","port":80,"uuid":"4585277c-21d8-402a-ccc6-607ff403354c","alterId":32,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"165.232.116.88D","ws-opts":{"path":"/"},"server":"165.232.116.88","port":80,"uuid":"ab8c56ab-9c42-48c4-eaf1-4de23f6c33ae","alterId":32,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"64.225.22.40D","ws-opts":{"path":"/"},"server":"64.225.22.40","port":80,"uuid":"a3dd43c6-7ea8-4825-a35c-c03fc24c3fcb","alterId":32,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"138.201.154.193D","ws-opts":{"path":"/"},"server":"138.201.154.193","port":8080,"uuid":"dd4e1983-8ac2-4953-9e64-960d1ed1af47","alterId":32,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"165.227.166.124D","ws-opts":{"path":"/"},"server":"165.227.166.124","port":80,"uuid":"3a27801a-15c6-4afa-fd58-63070f51c3ed","alterId":32,"cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"207.154.194.68D","ws-opts":{"path":"/"},"server":"207.154.194.68","port":8880,"uuid":"3e4346f1-4623-4332-da96-391bc618e8e1","alterId":32,"cipher":"auto","network":"ws"}
+  - {"type":"vless","name":"🇮🇷MetaVPN1️⃣","server":"mt1.nabsk.com","port":443,"uuid":"a61eb3a2-1adb-48cb-ab46-ce225769de16","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"bmi.ir","ws-opts":{"path":"users?ed=2048","headers":{"host":"bmi.ir"}}}
+  - {"type":"vless","name":"🇮🇷MetaVPN2️⃣","server":"mt2.qowch.com","port":443,"uuid":"a61eb3a2-1adb-48cb-ab46-ce225769de16","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"bmi.ir","ws-opts":{"path":"users?ed=2048","headers":{"host":"bmi.ir"}}}
+  - {"type":"vless","name":"🇮🇷MetaVPN3️⃣","server":"mt8.nabsk.com","port":443,"uuid":"a61eb3a2-1adb-48cb-ab46-ce225769de16","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"bmi.ir","ws-opts":{"path":"users?ed=2048","headers":{"host":"bmi.ir"}}}
+  - {"type":"vless","name":"🇮🇷MetaVPN4️⃣","server":"sp1.tioet.com","port":443,"uuid":"a61eb3a2-1adb-48cb-ab46-ce225769de16","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"bmi.ir","ws-opts":{"path":"users?ed=2048","headers":{"host":"bmi.ir"}}}
+  - {"type":"vless","name":"🇮🇷MetaVPN5️⃣","server":"cdn.ghsid.com","port":443,"uuid":"a61eb3a2-1adb-48cb-ab46-ce225769de16","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"bmi.ir","ws-opts":{"path":"users?ed=2048","headers":{"host":"bmi.ir"}}}
+  - {"type":"vless","name":"🇮🇷MetaVPN6️⃣","server":"cdn.mqupk.com","port":443,"uuid":"a61eb3a2-1adb-48cb-ab46-ce225769de16","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"bmi.ir","ws-opts":{"path":"users?ed=2048","headers":{"host":"bmi.ir"}}}
+  - {"type":"vless","name":"🇮🇷AdaVPN1️⃣","server":"ada2.qowch.com","port":443,"uuid":"a61eb3a2-1adb-48cb-ab46-ce225769de16","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"bmi.ir","ws-opts":{"path":"users?ed=2048","headers":{"host":"bmi.ir"}}}
+  - {"type":"vless","name":"🇮🇷AdaVPN2️⃣","server":"cdn.xlvnl.com","port":443,"uuid":"a61eb3a2-1adb-48cb-ab46-ce225769de16","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"bmi.ir","ws-opts":{"path":"users?ed=2048","headers":{"host":"bmi.ir"}}}
+  - {"type":"vless","name":"🇮🇷AdaVPN3️⃣","server":"ada51.cwvgq.com","port":443,"uuid":"a61eb3a2-1adb-48cb-ab46-ce225769de16","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"bmi.ir","ws-opts":{"path":"users?ed=2048","headers":{"host":"bmi.ir"}}}
+  - {"type":"vless","name":"🇮🇷AdaVPN4️⃣","server":"ada57.cwvgq.com","port":443,"uuid":"a61eb3a2-1adb-48cb-ab46-ce225769de16","skip-cert-verify":true,"udp":true,"tls":true,"network":"ws","servername":"bmi.ir","ws-opts":{"path":"users?ed=2048","headers":{"host":"bmi.ir"}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 207.154.252.219
-      - 164.92.133.21
-      - 178.128.196.164
-      - 104.248.137.112_1
-      - 138.197.177.158
-      - 49.12.75.213
-      - 104.248.137.112_2
-      - 165.232.116.131
-      - 49.12.214.6
-      - 161.35.25.144
-      - 104.248.137.249
-      - 165.232.116.88
-      - 64.225.22.40
-      - 138.201.154.193
-      - 165.227.166.124
-      - 207.154.194.68
-      - 207.154.252.219D
-      - 164.92.133.21D
-      - 178.128.196.164D
-      - 104.248.137.112D_1
-      - 138.197.177.158D
-      - 49.12.75.213D
-      - 104.248.137.112D_2
-      - 165.232.116.131D
-      - 49.12.214.6D
-      - 161.35.25.144D
-      - 104.248.137.249D
-      - 165.232.116.88D
-      - 64.225.22.40D
-      - 138.201.154.193D
-      - 165.227.166.124D
-      - 207.154.194.68D
+      - 🇮🇷MetaVPN1️⃣
+      - 🇮🇷MetaVPN2️⃣
+      - 🇮🇷MetaVPN3️⃣
+      - 🇮🇷MetaVPN4️⃣
+      - 🇮🇷MetaVPN5️⃣
+      - 🇮🇷MetaVPN6️⃣
+      - 🇮🇷AdaVPN1️⃣
+      - 🇮🇷AdaVPN2️⃣
+      - 🇮🇷AdaVPN3️⃣
+      - 🇮🇷AdaVPN4️⃣
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 207.154.252.219
-      - 164.92.133.21
-      - 178.128.196.164
-      - 104.248.137.112_1
-      - 138.197.177.158
-      - 49.12.75.213
-      - 104.248.137.112_2
-      - 165.232.116.131
-      - 49.12.214.6
-      - 161.35.25.144
-      - 104.248.137.249
-      - 165.232.116.88
-      - 64.225.22.40
-      - 138.201.154.193
-      - 165.227.166.124
-      - 207.154.194.68
-      - 207.154.252.219D
-      - 164.92.133.21D
-      - 178.128.196.164D
-      - 104.248.137.112D_1
-      - 138.197.177.158D
-      - 49.12.75.213D
-      - 104.248.137.112D_2
-      - 165.232.116.131D
-      - 49.12.214.6D
-      - 161.35.25.144D
-      - 104.248.137.249D
-      - 165.232.116.88D
-      - 64.225.22.40D
-      - 138.201.154.193D
-      - 165.227.166.124D
-      - 207.154.194.68D
+      - 🇮🇷MetaVPN1️⃣
+      - 🇮🇷MetaVPN2️⃣
+      - 🇮🇷MetaVPN3️⃣
+      - 🇮🇷MetaVPN4️⃣
+      - 🇮🇷MetaVPN5️⃣
+      - 🇮🇷MetaVPN6️⃣
+      - 🇮🇷AdaVPN1️⃣
+      - 🇮🇷AdaVPN2️⃣
+      - 🇮🇷AdaVPN3️⃣
+      - 🇮🇷AdaVPN4️⃣
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 207.154.252.219
-      - 164.92.133.21
-      - 178.128.196.164
-      - 104.248.137.112_1
-      - 138.197.177.158
-      - 49.12.75.213
-      - 104.248.137.112_2
-      - 165.232.116.131
-      - 49.12.214.6
-      - 161.35.25.144
-      - 104.248.137.249
-      - 165.232.116.88
-      - 64.225.22.40
-      - 138.201.154.193
-      - 165.227.166.124
-      - 207.154.194.68
-      - 207.154.252.219D
-      - 164.92.133.21D
-      - 178.128.196.164D
-      - 104.248.137.112D_1
-      - 138.197.177.158D
-      - 49.12.75.213D
-      - 104.248.137.112D_2
-      - 165.232.116.131D
-      - 49.12.214.6D
-      - 161.35.25.144D
-      - 104.248.137.249D
-      - 165.232.116.88D
-      - 64.225.22.40D
-      - 138.201.154.193D
-      - 165.227.166.124D
-      - 207.154.194.68D
+      - 🇮🇷MetaVPN1️⃣
+      - 🇮🇷MetaVPN2️⃣
+      - 🇮🇷MetaVPN3️⃣
+      - 🇮🇷MetaVPN4️⃣
+      - 🇮🇷MetaVPN5️⃣
+      - 🇮🇷MetaVPN6️⃣
+      - 🇮🇷AdaVPN1️⃣
+      - 🇮🇷AdaVPN2️⃣
+      - 🇮🇷AdaVPN3️⃣
+      - 🇮🇷AdaVPN4️⃣
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 207.154.252.219
-      - 164.92.133.21
-      - 178.128.196.164
-      - 104.248.137.112_1
-      - 138.197.177.158
-      - 49.12.75.213
-      - 104.248.137.112_2
-      - 165.232.116.131
-      - 49.12.214.6
-      - 161.35.25.144
-      - 104.248.137.249
-      - 165.232.116.88
-      - 64.225.22.40
-      - 138.201.154.193
-      - 165.227.166.124
-      - 207.154.194.68
-      - 207.154.252.219D
-      - 164.92.133.21D
-      - 178.128.196.164D
-      - 104.248.137.112D_1
-      - 138.197.177.158D
-      - 49.12.75.213D
-      - 104.248.137.112D_2
-      - 165.232.116.131D
-      - 49.12.214.6D
-      - 161.35.25.144D
-      - 104.248.137.249D
-      - 165.232.116.88D
-      - 64.225.22.40D
-      - 138.201.154.193D
-      - 165.227.166.124D
-      - 207.154.194.68D
+      - 🇮🇷MetaVPN1️⃣
+      - 🇮🇷MetaVPN2️⃣
+      - 🇮🇷MetaVPN3️⃣
+      - 🇮🇷MetaVPN4️⃣
+      - 🇮🇷MetaVPN5️⃣
+      - 🇮🇷MetaVPN6️⃣
+      - 🇮🇷AdaVPN1️⃣
+      - 🇮🇷AdaVPN2️⃣
+      - 🇮🇷AdaVPN3️⃣
+      - 🇮🇷AdaVPN4️⃣
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 207.154.252.219
-      - 164.92.133.21
-      - 178.128.196.164
-      - 104.248.137.112_1
-      - 138.197.177.158
-      - 49.12.75.213
-      - 104.248.137.112_2
-      - 165.232.116.131
-      - 49.12.214.6
-      - 161.35.25.144
-      - 104.248.137.249
-      - 165.232.116.88
-      - 64.225.22.40
-      - 138.201.154.193
-      - 165.227.166.124
-      - 207.154.194.68
-      - 207.154.252.219D
-      - 164.92.133.21D
-      - 178.128.196.164D
-      - 104.248.137.112D_1
-      - 138.197.177.158D
-      - 49.12.75.213D
-      - 104.248.137.112D_2
-      - 165.232.116.131D
-      - 49.12.214.6D
-      - 161.35.25.144D
-      - 104.248.137.249D
-      - 165.232.116.88D
-      - 64.225.22.40D
-      - 138.201.154.193D
-      - 165.227.166.124D
-      - 207.154.194.68D
+      - 🇮🇷MetaVPN1️⃣
+      - 🇮🇷MetaVPN2️⃣
+      - 🇮🇷MetaVPN3️⃣
+      - 🇮🇷MetaVPN4️⃣
+      - 🇮🇷MetaVPN5️⃣
+      - 🇮🇷MetaVPN6️⃣
+      - 🇮🇷AdaVPN1️⃣
+      - 🇮🇷AdaVPN2️⃣
+      - 🇮🇷AdaVPN3️⃣
+      - 🇮🇷AdaVPN4️⃣
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 207.154.252.219
-      - 164.92.133.21
-      - 178.128.196.164
-      - 104.248.137.112_1
-      - 138.197.177.158
-      - 49.12.75.213
-      - 104.248.137.112_2
-      - 165.232.116.131
-      - 49.12.214.6
-      - 161.35.25.144
-      - 104.248.137.249
-      - 165.232.116.88
-      - 64.225.22.40
-      - 138.201.154.193
-      - 165.227.166.124
-      - 207.154.194.68
-      - 207.154.252.219D
-      - 164.92.133.21D
-      - 178.128.196.164D
-      - 104.248.137.112D_1
-      - 138.197.177.158D
-      - 49.12.75.213D
-      - 104.248.137.112D_2
-      - 165.232.116.131D
-      - 49.12.214.6D
-      - 161.35.25.144D
-      - 104.248.137.249D
-      - 165.232.116.88D
-      - 64.225.22.40D
-      - 138.201.154.193D
-      - 165.227.166.124D
-      - 207.154.194.68D
+      - 🇮🇷MetaVPN1️⃣
+      - 🇮🇷MetaVPN2️⃣
+      - 🇮🇷MetaVPN3️⃣
+      - 🇮🇷MetaVPN4️⃣
+      - 🇮🇷MetaVPN5️⃣
+      - 🇮🇷MetaVPN6️⃣
+      - 🇮🇷AdaVPN1️⃣
+      - 🇮🇷AdaVPN2️⃣
+      - 🇮🇷AdaVPN3️⃣
+      - 🇮🇷AdaVPN4️⃣
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -292,38 +138,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 207.154.252.219
-      - 164.92.133.21
-      - 178.128.196.164
-      - 104.248.137.112_1
-      - 138.197.177.158
-      - 49.12.75.213
-      - 104.248.137.112_2
-      - 165.232.116.131
-      - 49.12.214.6
-      - 161.35.25.144
-      - 104.248.137.249
-      - 165.232.116.88
-      - 64.225.22.40
-      - 138.201.154.193
-      - 165.227.166.124
-      - 207.154.194.68
-      - 207.154.252.219D
-      - 164.92.133.21D
-      - 178.128.196.164D
-      - 104.248.137.112D_1
-      - 138.197.177.158D
-      - 49.12.75.213D
-      - 104.248.137.112D_2
-      - 165.232.116.131D
-      - 49.12.214.6D
-      - 161.35.25.144D
-      - 104.248.137.249D
-      - 165.232.116.88D
-      - 64.225.22.40D
-      - 138.201.154.193D
-      - 165.227.166.124D
-      - 207.154.194.68D
+      - 🇮🇷MetaVPN1️⃣
+      - 🇮🇷MetaVPN2️⃣
+      - 🇮🇷MetaVPN3️⃣
+      - 🇮🇷MetaVPN4️⃣
+      - 🇮🇷MetaVPN5️⃣
+      - 🇮🇷MetaVPN6️⃣
+      - 🇮🇷AdaVPN1️⃣
+      - 🇮🇷AdaVPN2️⃣
+      - 🇮🇷AdaVPN3️⃣
+      - 🇮🇷AdaVPN4️⃣
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
